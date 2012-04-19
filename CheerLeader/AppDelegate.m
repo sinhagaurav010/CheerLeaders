@@ -10,7 +10,7 @@
 
 @implementation AppDelegate
 @synthesize navigation;
-@synthesize window = _window,homeControler;
+@synthesize window = _window,homeControler,splashController;
 
 - (void)dealloc
 {
@@ -34,8 +34,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.homeControler = [[HomeViewController  alloc] init];
-    self.navigation = [[UINavigationController  alloc] initWithRootViewController:homeControler];
+    self.splashController = [[TabBarCLController  alloc] init];
+    self.navigation = [[UINavigationController  alloc] initWithRootViewController:self.splashController];
+    
     self.window.rootViewController = self.navigation;
     
     [self.window makeKeyAndVisible];

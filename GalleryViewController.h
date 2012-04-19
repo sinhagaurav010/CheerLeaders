@@ -11,8 +11,14 @@
 
 @interface GalleryViewController : UIViewController
 {
+    NSInteger counter;
 }
 @property(retain)    IBOutlet UIScrollView *scrllGallery;
 
 @property(retain)    NSMutableArray *arrayImages;
+
+
+-(IBAction)clickOnRight:(id)sender;
+
+-(IBAction)clickOnLeft:(id)sender;
 @end

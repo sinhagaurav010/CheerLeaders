@@ -31,6 +31,8 @@
 
 - (void)viewDidLoad
 {
+    [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
+    
     self.navigationItem.title = @"RSS Feed";
 
     [super viewDidLoad];
@@ -87,6 +89,7 @@
     //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:storyLink]];
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = storyLink;
+    GeneralWebController.isFromtab = 1;
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 

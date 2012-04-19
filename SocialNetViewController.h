@@ -11,6 +11,8 @@
 #import "Global.h"
 @interface SocialNetViewController : UIViewController
 
+
+
 -(IBAction)ClickOnFB:(id)sender;
 -(IBAction)ClickOnTwitter:(id)sender;
 -(IBAction)ClickOnLinkedIn:(id)sender;

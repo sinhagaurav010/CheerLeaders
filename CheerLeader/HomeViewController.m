@@ -34,6 +34,8 @@
 {
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = YouTubeLink;
+    GeneralWebController.isFromtab = 1;
+
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
     
 }
@@ -43,6 +45,8 @@
 {
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = NewsLink;
+    GeneralWebController.isFromtab = 1;
+
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 
@@ -75,7 +79,9 @@
 - (void)viewDidLoad
 {
     
- 
+  
+    [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
+    self.navigationItem.title = @"Inside CheerLeader";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

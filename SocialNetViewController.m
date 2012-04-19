@@ -32,6 +32,7 @@
 {
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = FacebookLink;
+    GeneralWebController.isFromtab = 1;
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 
 }
@@ -39,6 +40,8 @@
 {
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = TwitterLink;
+    GeneralWebController.isFromtab = 1;
+
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 
@@ -47,6 +50,8 @@
 {
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = FacebookLink;
+    GeneralWebController.isFromtab = 1;
+
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 

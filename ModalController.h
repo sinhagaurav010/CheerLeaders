@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Reachability.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <SystemConfiguration/SCNetworkReachability.h>
+#include <netinet/in.h>
 @protocol ModalDelegate <NSObject>
 -(void)getdata;
 -(void)getError;
@@ -22,6 +25,8 @@
     NSData *dataXml;
 
 }
++ (BOOL) connectedToNetwork;
+
 +(void)removeContentForKey:(NSString*)stringKey;
 + (NSString*) decodeHtmlUnicodeCharactersToString:(NSString*)str;
 +(NSString*)replaceXMLStuffInString:(NSString*)source;

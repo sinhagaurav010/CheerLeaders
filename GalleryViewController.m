@@ -31,7 +31,7 @@
 
 - (void)viewDidLoad
 {
-    
+    counter = 0;
     self.navigationItem.title = @"Gallery";
     
     if(isPad == 0)
@@ -41,7 +41,7 @@
     
     
     
-    [scrllGallery setContentSize:CGSizeMake(320*[arrayImages  count], 416)];
+    [scrllGallery setContentSize:CGSizeMake(320*[arrayImages  count], 367)];
     scrllGallery.pagingEnabled = YES;
     int incX = 0;
     for(int i=0;i<[arrayImages  count];i++)
@@ -49,14 +49,36 @@
         
         
         UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
-        NSInteger width =  (416-imageGal.size.height)/2;
+        NSInteger width =  (367-imageGal.size.height)/2;
         UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, width, 320, imageGal.size.height)];
         imageView.image = imageGal;
         [scrllGallery addSubview:imageView];
         incX += 320;
     }
+    
+    [self.view setBackgroundColor:[UIColor  blueColor]];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+-(IBAction)clickOnRight:(id)sender
+{
+    
+    if(counter <[self.arrayImages count]-1)
+    {
+        counter++;
+        
+        [scrllGallery setContentOffset:CGPointMake(320*counter, 0)];
+    }
+}
+
+-(IBAction)clickOnLeft:(id)sender
+{
+    if(counter >0)
+    {
+        counter--;
+        
+        [scrllGallery setContentOffset:CGPointMake(320*counter, 0)];
+    }
 }
 
 - (void)viewDidUnload

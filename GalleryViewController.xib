@@ -39,7 +39,7 @@
 					<object class="IBUIScrollView" id="462714712">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 416}</string>
+						<string key="NSFrameSize">{320, 367}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="247638838"/>
@@ -58,7 +58,7 @@
 							<object class="IBUIButton" id="373698872">
 								<reference key="NSNextResponder" ref="247638838"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{203, 0}, {24, 32}}</string>
+								<string key="NSFrame">{{268, 0}, {24, 32}}</string>
 								<reference key="NSSuperview" ref="247638838"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
@@ -66,6 +66,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
+								<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
 								<object class="NSColor" key="IBUIHighlightedTitleColor" id="591665834">
 									<int key="NSColorSpace">3</int>
 									<bytes key="NSWhite">MQA</bytes>
@@ -95,7 +96,7 @@
 							<object class="IBUIButton" id="279091076">
 								<reference key="NSNextResponder" ref="247638838"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{85, 0}, {24, 32}}</string>
+								<string key="NSFrame">{{20, 0}, {24, 32}}</string>
 								<reference key="NSSuperview" ref="247638838"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="373698872"/>
@@ -103,6 +104,7 @@
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								<int key="IBUIContentHorizontalAlignment">0</int>
 								<int key="IBUIContentVerticalAlignment">0</int>
+								<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
 								<reference key="IBUIHighlightedTitleColor" ref="591665834"/>
 								<object class="NSColor" key="IBUINormalTitleColor">
 									<int key="NSColorSpace">1</int>
@@ -117,7 +119,7 @@
 								<reference key="IBUIFont" ref="630929064"/>
 							</object>
 						</array>
-						<string key="NSFrame">{{0, 383}, {320, 32}}</string>
+						<string key="NSFrame">{{0, 337}, {320, 30}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="279091076"/>
@@ -128,7 +130,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 				</array>
-				<string key="NSFrame">{{0, 64}, {320, 416}}</string>
+				<string key="NSFrame">{{0, 64}, {320, 367}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="462714712"/>
@@ -143,6 +145,7 @@
 				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">
 					<bool key="IBUIPrompted">NO</bool>
 				</object>
+				<object class="IBUISimulatedTabBarMetrics" key="IBUISimulatedBottomBarMetrics"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 		</array>
@@ -163,6 +166,24 @@
 						<reference key="destination" ref="462714712"/>
 					</object>
 					<int key="connectionID">9</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickOnRight:</string>
+						<reference key="source" ref="373698872"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">11</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">clickOnLeft:</string>
+						<reference key="source" ref="279091076"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">10</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -235,13 +256,27 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">9</int>
+			<int key="maxID">11</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
 					<string key="className">GalleryViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="clickOnLeft:">id</string>
+						<string key="clickOnRight:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="clickOnLeft:">
+							<string key="name">clickOnLeft:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="clickOnRight:">
+							<string key="name">clickOnRight:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">scrllGallery</string>
 						<string key="NS.object.0">UIScrollView</string>

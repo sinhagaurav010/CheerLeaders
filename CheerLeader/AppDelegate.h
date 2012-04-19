@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "Global.h"
 #import "HomeViewController.h"
+#import "TabBarCLController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 {
 
 }
-@property(strong,nonatomic)UITabBarController *tabbarController;
+@property(strong,nonatomic)TabBarCLController *splashController;
 @property(strong,nonatomic)HomeViewController *homeControler;
 
 @property(strong,nonatomic)UINavigationController *navigation;
