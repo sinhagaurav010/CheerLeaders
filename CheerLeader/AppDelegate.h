@@ -14,7 +14,7 @@
 {
 
 }
-
+@property(strong,nonatomic)UITabBarController *tabbarController;
 @property(strong,nonatomic)HomeViewController *homeControler;
 
 @property(strong,nonatomic)UINavigationController *navigation;

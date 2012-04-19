@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C7CB58F154052BE0083B299 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB58D154052BE0083B299 /* GalleryViewController.m */; };
+		1C7CB590154052BE0083B299 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB58E154052BE0083B299 /* GalleryViewController.xib */; };
+		1C7CB594154052E50083B299 /* GeneralWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB592154052E50083B299 /* GeneralWebViewController.m */; };
+		1C7CB595154052E50083B299 /* GeneralWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB593154052E50083B299 /* GeneralWebViewController.xib */; };
+		1C7CB599154052F70083B299 /* RssFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB597154052F70083B299 /* RssFeedViewController.m */; };
+		1C7CB59A154052F70083B299 /* RssFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB598154052F70083B299 /* RssFeedViewController.xib */; };
+		1C7CB59E154053160083B299 /* SocialNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB59C154053160083B299 /* SocialNetViewController.m */; };
+		1C7CB59F154053160083B299 /* SocialNetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB59D154053160083B299 /* SocialNetViewController.xib */; };
+		1C7CB5A4154053310083B299 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A2154053310083B299 /* HomeViewController.m */; };
+		1C7CB5A5154053310083B299 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A3154053310083B299 /* HomeViewController.xib */; };
 		5D2FCC4B1538DBA600A4F530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4A1538DBA600A4F530 /* UIKit.framework */; };
 		5D2FCC4D1538DBA600A4F530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4C1538DBA600A4F530 /* Foundation.framework */; };
 		5D2FCC4F1538DBA600A4F530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4E1538DBA600A4F530 /* CoreGraphics.framework */; };
 		5D2FCC551538DBA600A4F530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FCC531538DBA600A4F530 /* InfoPlist.strings */; };
 		5D2FCC571538DBA600A4F530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC561538DBA600A4F530 /* main.m */; };
 		5D2FCC5B1538DBA600A4F530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */; };
-		5D2FCC6E1538DCC500A4F530 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC6C1538DCC400A4F530 /* HomeViewController.m */; };
-		5D2FCC6F1538DCC500A4F530 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FCC6D1538DCC400A4F530 /* HomeViewController.xib */; };
-		5DC6821115396877003BB0C3 /* RssFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC6820F15396877003BB0C3 /* RssFeedViewController.m */; };
-		5DC6821215396877003BB0C3 /* RssFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC6821015396877003BB0C3 /* RssFeedViewController.xib */; };
-		5DC682171539689C003BB0C3 /* GeneralWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC682151539689C003BB0C3 /* GeneralWebViewController.m */; };
-		5DC682181539689C003BB0C3 /* GeneralWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DC682161539689C003BB0C3 /* GeneralWebViewController.xib */; };
 		5DD30AD41539E68600FF7A56 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */; };
-		5DD30AF31539F83100FF7A56 /* SocialNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30AF11539F83100FF7A56 /* SocialNetViewController.m */; };
-		5DD30AF41539F83100FF7A56 /* SocialNetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30AF21539F83100FF7A56 /* SocialNetViewController.xib */; };
-		5DD30B01153A086C00FF7A56 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30AFF153A086C00FF7A56 /* GalleryViewController.m */; };
-		5DD30B02153A086C00FF7A56 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B00153A086C00FF7A56 /* GalleryViewController.xib */; };
 		5DD30B31153A0A7400FF7A56 /* April06-250.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B06153A0A7300FF7A56 /* April06-250.jpg */; };
 		5DD30B32153A0A7400FF7A56 /* augSEP04.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B07153A0A7300FF7A56 /* augSEP04.tif */; };
 		5DD30B33153A0A7400FF7A56 /* IC_janfeb07_250.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B08153A0A7300FF7A56 /* IC_janfeb07_250.jpg */; };
@@ -82,6 +82,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C7CB58C154052BE0083B299 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		1C7CB58D154052BE0083B299 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		1C7CB58E154052BE0083B299 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		1C7CB591154052E50083B299 /* GeneralWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralWebViewController.h; sourceTree = "<group>"; };
+		1C7CB592154052E50083B299 /* GeneralWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralWebViewController.m; sourceTree = "<group>"; };
+		1C7CB593154052E50083B299 /* GeneralWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralWebViewController.xib; sourceTree = "<group>"; };
+		1C7CB596154052F70083B299 /* RssFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssFeedViewController.h; sourceTree = "<group>"; };
+		1C7CB597154052F70083B299 /* RssFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssFeedViewController.m; sourceTree = "<group>"; };
+		1C7CB598154052F70083B299 /* RssFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RssFeedViewController.xib; sourceTree = "<group>"; };
+		1C7CB59B154053160083B299 /* SocialNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialNetViewController.h; sourceTree = "<group>"; };
+		1C7CB59C154053160083B299 /* SocialNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialNetViewController.m; sourceTree = "<group>"; };
+		1C7CB59D154053160083B299 /* SocialNetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialNetViewController.xib; sourceTree = "<group>"; };
+		1C7CB5A0154053310083B299 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = CheerLeader/Global.h; sourceTree = "<group>"; };
+		1C7CB5A1154053310083B299 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = CheerLeader/HomeViewController.h; sourceTree = "<group>"; };
+		1C7CB5A2154053310083B299 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = CheerLeader/HomeViewController.m; sourceTree = "<group>"; };
+		1C7CB5A3154053310083B299 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = CheerLeader/HomeViewController.xib; sourceTree = "<group>"; };
 		5D2FCC461538DBA500A4F530 /* CheerLeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheerLeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2FCC4A1538DBA600A4F530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D2FCC4C1538DBA600A4F530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,24 +108,8 @@
 		5D2FCC581538DBA600A4F530 /* CheerLeader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheerLeader-Prefix.pch"; sourceTree = "<group>"; };
 		5D2FCC591538DBA600A4F530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D2FCC651538DBE100A4F530 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Global.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/CheerLeader/Global.h; sourceTree = "<absolute>"; };
-		5D2FCC6B1538DCC400A4F530 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/CheerLeader/HomeViewController.h; sourceTree = "<absolute>"; };
-		5D2FCC6C1538DCC400A4F530 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/CheerLeader/HomeViewController.m; sourceTree = "<absolute>"; };
-		5D2FCC6D1538DCC400A4F530 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/CheerLeader/HomeViewController.xib; sourceTree = "<absolute>"; };
-		5DC6820E15396877003BB0C3 /* RssFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RssFeedViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/RssFeedViewController.h; sourceTree = "<absolute>"; };
-		5DC6820F15396877003BB0C3 /* RssFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RssFeedViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/RssFeedViewController.m; sourceTree = "<absolute>"; };
-		5DC6821015396877003BB0C3 /* RssFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RssFeedViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/RssFeedViewController.xib; sourceTree = "<absolute>"; };
-		5DC682141539689C003BB0C3 /* GeneralWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneralWebViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GeneralWebViewController.h; sourceTree = "<absolute>"; };
-		5DC682151539689C003BB0C3 /* GeneralWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeneralWebViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GeneralWebViewController.m; sourceTree = "<absolute>"; };
-		5DC682161539689C003BB0C3 /* GeneralWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GeneralWebViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GeneralWebViewController.xib; sourceTree = "<absolute>"; };
 		5DD30AD21539E68600FF7A56 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		5DD30AF01539F83100FF7A56 /* SocialNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialNetViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/SocialNetViewController.h; sourceTree = "<absolute>"; };
-		5DD30AF11539F83100FF7A56 /* SocialNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialNetViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/SocialNetViewController.m; sourceTree = "<absolute>"; };
-		5DD30AF21539F83100FF7A56 /* SocialNetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SocialNetViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/SocialNetViewController.xib; sourceTree = "<absolute>"; };
-		5DD30AFE153A086B00FF7A56 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalleryViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GalleryViewController.h; sourceTree = "<absolute>"; };
-		5DD30AFF153A086C00FF7A56 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalleryViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GalleryViewController.m; sourceTree = "<absolute>"; };
-		5DD30B00153A086C00FF7A56 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GalleryViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GalleryViewController.xib; sourceTree = "<absolute>"; };
 		5DD30B06153A0A7300FF7A56 /* April06-250.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "April06-250.jpg"; sourceTree = "<group>"; };
 		5DD30B07153A0A7300FF7A56 /* augSEP04.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = augSEP04.tif; sourceTree = "<group>"; };
 		5DD30B08153A0A7300FF7A56 /* IC_janfeb07_250.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IC_janfeb07_250.jpg; sourceTree = "<group>"; };
@@ -237,7 +237,7 @@
 		5D2FCC691538DBEF00A4F530 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				5D2FCC651538DBE100A4F530 /* Global.h */,
+				1C7CB5A0154053310083B299 /* Global.h */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -253,9 +253,9 @@
 		5D2FCC701538DCCF00A4F530 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5D2FCC6B1538DCC400A4F530 /* HomeViewController.h */,
-				5D2FCC6C1538DCC400A4F530 /* HomeViewController.m */,
-				5D2FCC6D1538DCC400A4F530 /* HomeViewController.xib */,
+				1C7CB5A1154053310083B299 /* HomeViewController.h */,
+				1C7CB5A2154053310083B299 /* HomeViewController.m */,
+				1C7CB5A3154053310083B299 /* HomeViewController.xib */,
 			);
 			name = HomeViewController;
 			sourceTree = "<group>";
@@ -276,9 +276,9 @@
 		5DC68219153968AA003BB0C3 /* GeneralWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5DC682141539689C003BB0C3 /* GeneralWebViewController.h */,
-				5DC682151539689C003BB0C3 /* GeneralWebViewController.m */,
-				5DC682161539689C003BB0C3 /* GeneralWebViewController.xib */,
+				1C7CB59B154053160083B299 /* SocialNetViewController.h */,
+				1C7CB59C154053160083B299 /* SocialNetViewController.m */,
+				1C7CB59D154053160083B299 /* SocialNetViewController.xib */,
 			);
 			name = GeneralWebViewController;
 			sourceTree = "<group>";
@@ -286,9 +286,9 @@
 		5DC6821A153968B7003BB0C3 /* RssFeedViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5DC6820E15396877003BB0C3 /* RssFeedViewController.h */,
-				5DC6820F15396877003BB0C3 /* RssFeedViewController.m */,
-				5DC6821015396877003BB0C3 /* RssFeedViewController.xib */,
+				1C7CB596154052F70083B299 /* RssFeedViewController.h */,
+				1C7CB597154052F70083B299 /* RssFeedViewController.m */,
+				1C7CB598154052F70083B299 /* RssFeedViewController.xib */,
 			);
 			name = RssFeedViewController;
 			sourceTree = "<group>";
@@ -305,9 +305,9 @@
 		5DD30AE41539F47D00FF7A56 /* SocialNetViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5DD30AF01539F83100FF7A56 /* SocialNetViewController.h */,
-				5DD30AF11539F83100FF7A56 /* SocialNetViewController.m */,
-				5DD30AF21539F83100FF7A56 /* SocialNetViewController.xib */,
+				1C7CB591154052E50083B299 /* GeneralWebViewController.h */,
+				1C7CB592154052E50083B299 /* GeneralWebViewController.m */,
+				1C7CB593154052E50083B299 /* GeneralWebViewController.xib */,
 			);
 			name = SocialNetViewController;
 			sourceTree = "<group>";
@@ -315,9 +315,9 @@
 		5DD30B04153A087500FF7A56 /* GalleryViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5DD30AFE153A086B00FF7A56 /* GalleryViewController.h */,
-				5DD30AFF153A086C00FF7A56 /* GalleryViewController.m */,
-				5DD30B00153A086C00FF7A56 /* GalleryViewController.xib */,
+				1C7CB58C154052BE0083B299 /* GalleryViewController.h */,
+				1C7CB58D154052BE0083B299 /* GalleryViewController.m */,
+				1C7CB58E154052BE0083B299 /* GalleryViewController.xib */,
 			);
 			name = GalleryViewController;
 			sourceTree = "<group>";
@@ -460,11 +460,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D2FCC551538DBA600A4F530 /* InfoPlist.strings in Resources */,
-				5D2FCC6F1538DCC500A4F530 /* HomeViewController.xib in Resources */,
-				5DC6821215396877003BB0C3 /* RssFeedViewController.xib in Resources */,
-				5DC682181539689C003BB0C3 /* GeneralWebViewController.xib in Resources */,
-				5DD30AF41539F83100FF7A56 /* SocialNetViewController.xib in Resources */,
-				5DD30B02153A086C00FF7A56 /* GalleryViewController.xib in Resources */,
 				5DD30B31153A0A7400FF7A56 /* April06-250.jpg in Resources */,
 				5DD30B32153A0A7400FF7A56 /* augSEP04.tif in Resources */,
 				5DD30B33153A0A7400FF7A56 /* IC_janfeb07_250.jpg in Resources */,
@@ -519,6 +514,11 @@
 				5DFE98C0153F741100AEFE52 /* Newsletter.png in Resources */,
 				5DFE98C1153F741100AEFE52 /* MagazineGallery.png in Resources */,
 				5DFE98C2153F741100AEFE52 /* IConthescene.png in Resources */,
+				1C7CB590154052BE0083B299 /* GalleryViewController.xib in Resources */,
+				1C7CB595154052E50083B299 /* GeneralWebViewController.xib in Resources */,
+				1C7CB59A154052F70083B299 /* RssFeedViewController.xib in Resources */,
+				1C7CB59F154053160083B299 /* SocialNetViewController.xib in Resources */,
+				1C7CB5A5154053310083B299 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,13 +531,13 @@
 			files = (
 				5D2FCC571538DBA600A4F530 /* main.m in Sources */,
 				5D2FCC5B1538DBA600A4F530 /* AppDelegate.m in Sources */,
-				5D2FCC6E1538DCC500A4F530 /* HomeViewController.m in Sources */,
-				5DC6821115396877003BB0C3 /* RssFeedViewController.m in Sources */,
-				5DC682171539689C003BB0C3 /* GeneralWebViewController.m in Sources */,
 				5DD30AD41539E68600FF7A56 /* MBProgressHUD.m in Sources */,
-				5DD30AF31539F83100FF7A56 /* SocialNetViewController.m in Sources */,
-				5DD30B01153A086C00FF7A56 /* GalleryViewController.m in Sources */,
 				5DD30B67153A16B000FF7A56 /* ModalController.m in Sources */,
+				1C7CB58F154052BE0083B299 /* GalleryViewController.m in Sources */,
+				1C7CB594154052E50083B299 /* GeneralWebViewController.m in Sources */,
+				1C7CB599154052F70083B299 /* RssFeedViewController.m in Sources */,
+				1C7CB59E154053160083B299 /* SocialNetViewController.m in Sources */,
+				1C7CB5A4154053310083B299 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
