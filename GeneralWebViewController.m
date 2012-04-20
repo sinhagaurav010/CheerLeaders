@@ -63,6 +63,7 @@ if([self.webview isLoading])
 //    NSString *html = [NSString stringWithFormat:embedHTML,
 //                      width, height, YouTubeLink, YouTubeLink, width, height];
     
+    self.navigationItem.title = self.stringTitle;
     
    if(self.isFromtab == 0)
    {
@@ -72,10 +73,12 @@ if([self.webview isLoading])
     
     if([ModalController connectedToNetwork])
     {
-    MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
-    hud.labelText=@"Loading...";
     
-    [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:self.stringURL]]];
+        MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+        hud.labelText=@"Loading...";
+        
+        [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:self.stringURL]]];
+    
     }
     else
         [ModalController FuncAlertMsg:@"No Connection Found" inController:self];

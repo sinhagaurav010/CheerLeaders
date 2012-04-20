@@ -23,3 +23,5 @@ BOOL isPad;
 #define NewsLink  @"http://www.insidecheerleading.com/news/"
 
 #define YouTubeLink  @"http://www.youtube.com/user/insidecheer?feature=watch"
+
+#define LinkToAdd @"http://www.highlevelstudios.com/"

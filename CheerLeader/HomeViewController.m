@@ -9,6 +9,8 @@
 #import "HomeViewController.h"
 
 @implementation HomeViewController
+@synthesize imageViewAd;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,7 +48,8 @@
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = NewsLink;
     GeneralWebController.isFromtab = 1;
-
+    GeneralWebController.stringTitle  = @"You Tube";
+    
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 
@@ -74,12 +77,24 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+-(void)goToAd:(UITapGestureRecognizer *)recognizer
+{
+    NSLog(@"jknfvjfknsv");
+    
+    [[UIApplication  sharedApplication] openURL:[NSURL URLWithString:LinkToAdd]];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     
-  
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self action:@selector(goToAd:)];
+    imageViewAd.userInteractionEnabled = YES;
+    [imageViewAd addGestureRecognizer:gesture];
+    
+    
+    
     [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
     self.navigationItem.title = @"Inside CheerLeader";
     [super viewDidLoad];

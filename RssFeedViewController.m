@@ -90,6 +90,7 @@
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = storyLink;
     GeneralWebController.isFromtab = 1;
+    GeneralWebController.stringTitle = [[stories objectAtIndex: indexPath.row] objectForKey: @"title"];
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
 

@@ -15,6 +15,8 @@
 @interface HomeViewController : UIViewController
 
 
+@property(retain)IBOutlet UIImageView *imageViewAd;
+
 -(IBAction)RSSFeed:(id)sender;
 -(IBAction)SocialNet:(id)sender;
 -(IBAction)YouTube:(id)sender;
