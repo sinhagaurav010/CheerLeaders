@@ -64,7 +64,7 @@
 
 - (void)viewDidLoad
 {
-    
+    [ModalController  setGradientinView:self.view];
     self.navigationItem.title = @"Social Network";
 
     [super viewDidLoad];

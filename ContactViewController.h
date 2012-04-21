@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ContactViewController : UIViewController
-
+#import "MBProgressHUD.h"
+#import "ModalController.h"
+#import "Global.h"
+@interface ContactViewController : UIViewController<UIWebViewDelegate>
+{
+    IBOutlet UIWebView *webview;
+}
 @end

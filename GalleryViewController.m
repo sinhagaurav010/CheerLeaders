@@ -26,11 +26,18 @@
     
     // Release any cached data, images, etc that aren't in use.
 }
+- (void)viewWillDisappear:(BOOL)animated
+{
+    if([timer isValid])
+        [timer  invalidate];
+}
 
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
+    
+    [ModalController  setGradientinView:self.view];
     counter = 0;
     self.navigationItem.title = @"Gallery";
     
@@ -41,6 +48,7 @@
     
     
     
+    scrllGallery.userInteractionEnabled = NO;
     [scrllGallery setContentSize:CGSizeMake(320*[arrayImages  count], 367)];
     scrllGallery.pagingEnabled = YES;
     int incX = 0;
@@ -57,8 +65,30 @@
     }
     
     [self.view setBackgroundColor:[UIColor  blueColor]];
+    timer = [NSTimer  scheduledTimerWithTimeInterval:1.0 
+                                              target:self 
+                                            selector:@selector(slide) 
+                                            userInfo:nil 
+                                             repeats:YES];
+    
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void)slide
+{
+    NSLog(@"sdjkfnbkfg");
+    if([scrllGallery contentOffset].x < 320*([arrayImages  count]-1))
+    {
+        [scrllGallery  setContentOffset:CGPointMake([scrllGallery contentOffset].x+320, 0) 
+                               animated:YES];
+    }
+    else
+    {
+        [timer invalidate];
+        [self.navigationController  popViewControllerAnimated:YES];
+    }
 }
 -(IBAction)clickOnRight:(id)sender
 {

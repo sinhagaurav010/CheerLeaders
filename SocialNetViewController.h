@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "GeneralWebViewController.h"
 #import "Global.h"
+#import "ModalController.h"
 @interface SocialNetViewController : UIViewController
 
 

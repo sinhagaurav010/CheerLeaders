@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "Global.h"
-
+#import "ModalController.h"
 @interface GalleryViewController : UIViewController
 {
     NSInteger counter;
+    NSTimer *timer;
 }
 @property(retain)    IBOutlet UIScrollView *scrllGallery;
 

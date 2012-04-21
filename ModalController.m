@@ -217,6 +217,24 @@
     //                                                  object:nil];
 }
 
+#pragma mark -setGradientinView-
++(void)setGradientinView:(UIView *)view
+{
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = view.bounds;
+    //    CGFloat top = 180/255.0;
+    //    CGFloat bottom = 80.0/255.0;
+    //255-239-213
+    //186-85-211
+    CGColorRef topColor = [[UIColor colorWithRed:0.044 green:.2844 blue:.4355 alpha:1.0] CGColor];
+    CGColorRef bottomColor = [[UIColor blueColor] CGColor];
+    gradient.colors = [NSArray arrayWithObjects:(id)topColor, (id)bottomColor, nil];
+    
+    //gradient.colors = [NSArray arrayWithObjects:(id)[[UIColor grayColor] CGColor], (id)[[UIColor blackColor] CGColor], nil];
+    
+    [view.layer insertSublayer:gradient atIndex:0];
+    
+}
 //+(UIView*)titleView
 //{
 //    UILabel *Loco = [[UILabel alloc] initWithFrame:CGRectMake(0, 7, 100, 30)];

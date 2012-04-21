@@ -35,11 +35,61 @@
     [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
     
     self.navigationItem.title = @"Contacts";
+    
+    [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
+    
+    //    self.webview.scalesPageToFit = YES;
+    //    NSString* embedHTML = @""
+    //    "<html><head>"
+    //    "<style type=\"text/css\">"
+    //    "body {" 
+    //    "background-color: transparent;"
+    //    "color: white;"
+    //    "}" 
+    //    "</style>"
+    //    "</head><body style=\"margin:0\">" 
+    //    "<object width=\"%0.0f\" height=\"%0.0f\"><param name=\"movie\" value=\"%@&autoplay=1\">"
+    //    "</param><embed src=\"%@&autoplay=1\" type=\"application/x-shockwave-flash\" width=\"%0.0f\" height=\"%0.0f\"></embed></object>"
+    //    "</body></html>";
+    //    
+    //    
+    //    CGFloat width = self.webview.frame.size.width;
+    //    CGFloat height = self.webview.frame.size.height;
+    //    NSString *html = [NSString stringWithFormat:embedHTML,
+    //                      width, height, YouTubeLink, YouTubeLink, width, height];
+    
+    webview.delegate = self;
+    
+    if([ModalController connectedToNetwork])
+    {
+        
+        MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+        hud.labelText=@"Loading...";
+        
+        [webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:SUBSRIBE]]];
+        
+    }
+    else
+        [ModalController FuncAlertMsg:@"No Connection Found" inController:self];
 
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    
+    [MBProgressHUD  hideHUDForView:self.navigationController.view animated:YES];
+}
 
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    //    if(isFirst == 1)
+    //    {
+    //         isFirst = 0;
+    [MBProgressHUD  hideHUDForView:self.navigationController.view animated:YES];
+    //    [ModalController FuncAlertMsg:@"No Connection Found" inController:self];
+    //    }
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];

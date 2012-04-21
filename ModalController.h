@@ -11,6 +11,7 @@
 #import <SystemConfiguration/SystemConfiguration.h>
 #import <SystemConfiguration/SCNetworkReachability.h>
 #include <netinet/in.h>
+#import <QuartzCore/QuartzCore.h>
 @protocol ModalDelegate <NSObject>
 -(void)getdata;
 -(void)getError;
@@ -27,6 +28,7 @@
 }
 + (BOOL) connectedToNetwork;
 
++(void)setGradientinView:(UIView *)view;
 +(void)removeContentForKey:(NSString*)stringKey;
 + (NSString*) decodeHtmlUnicodeCharactersToString:(NSString*)str;
 +(NSString*)replaceXMLStuffInString:(NSString*)source;

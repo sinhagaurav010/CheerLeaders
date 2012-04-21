@@ -33,7 +33,7 @@
 {
     [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
     
-    self.navigationItem.title = @"RSS Feed";
+    self.navigationItem.title = @"IC News";
 
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

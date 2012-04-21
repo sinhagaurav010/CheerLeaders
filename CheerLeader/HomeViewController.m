@@ -37,6 +37,7 @@
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = YouTubeLink;
     GeneralWebController.isFromtab = 1;
+    GeneralWebController.stringTitle  = @"You Tube";
 
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
     
@@ -48,7 +49,7 @@
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = NewsLink;
     GeneralWebController.isFromtab = 1;
-    GeneralWebController.stringTitle  = @"You Tube";
+    GeneralWebController.stringTitle  = @"NewsLetter";
     
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 }
@@ -62,8 +63,14 @@
 
 -(IBAction)Event:(id)sender
 {
-    RssFeedViewController *rssController = [[RssFeedViewController alloc] init];
-    [self.navigationController  pushViewController:rssController animated:YES];
+    GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
+    GeneralWebController.stringURL = SUBSRIBE;
+    GeneralWebController.isFromtab = 1;
+    GeneralWebController.stringTitle  = @"Subscribe";
+    
+    [self.navigationController  pushViewController:GeneralWebController animated:YES];
+//    RssFeedViewController *rssController = [[RssFeedViewController alloc] init];
+//    [self.navigationController  pushViewController:rssController animated:YES];
 }
 
 
@@ -88,6 +95,8 @@
 
 - (void)viewDidLoad
 {
+    
+    [ModalController  setGradientinView:self.view];
     
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self action:@selector(goToAd:)];
     imageViewAd.userInteractionEnabled = YES;

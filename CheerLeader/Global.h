@@ -25,3 +25,5 @@ BOOL isPad;
 #define YouTubeLink  @"http://www.youtube.com/user/insidecheer?feature=watch"
 
 #define LinkToAdd @"http://www.highlevelstudios.com/"
+
+#define SUBSRIBE @"http://www.subscribeic.com/"

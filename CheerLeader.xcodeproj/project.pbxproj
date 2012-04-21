@@ -21,6 +21,7 @@
 		1C7CB59F154053160083B299 /* SocialNetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB59D154053160083B299 /* SocialNetViewController.xib */; };
 		1C7CB5A4154053310083B299 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A2154053310083B299 /* HomeViewController.m */; };
 		1C7CB5A5154053310083B299 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A3154053310083B299 /* HomeViewController.xib */; };
+		5D02E46615434E2900979950 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D02E46515434E2800979950 /* QuartzCore.framework */; };
 		5D2FCC4B1538DBA600A4F530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4A1538DBA600A4F530 /* UIKit.framework */; };
 		5D2FCC4D1538DBA600A4F530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4C1538DBA600A4F530 /* Foundation.framework */; };
 		5D2FCC4F1538DBA600A4F530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4E1538DBA600A4F530 /* CoreGraphics.framework */; };
@@ -119,6 +120,7 @@
 		1C7CB5A1154053310083B299 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = CheerLeader/HomeViewController.h; sourceTree = "<group>"; };
 		1C7CB5A2154053310083B299 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = CheerLeader/HomeViewController.m; sourceTree = "<group>"; };
 		1C7CB5A3154053310083B299 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = CheerLeader/HomeViewController.xib; sourceTree = "<group>"; };
+		5D02E46515434E2800979950 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D2FCC461538DBA500A4F530 /* CheerLeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheerLeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2FCC4A1538DBA600A4F530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D2FCC4C1538DBA600A4F530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -206,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D02E46615434E2900979950 /* QuartzCore.framework in Frameworks */,
 				5DEDBF271540C111008DFACC /* CFNetwork.framework in Frameworks */,
 				5DEDBF251540C0C7008DFACC /* Security.framework in Frameworks */,
 				5DEDBF231540C0C1008DFACC /* SystemConfiguration.framework in Frameworks */,
@@ -221,6 +224,7 @@
 		5D2FCC3B1538DBA500A4F530 = {
 			isa = PBXGroup;
 			children = (
+				5D02E46515434E2800979950 /* QuartzCore.framework */,
 				5DEDBF261540C111008DFACC /* CFNetwork.framework */,
 				5DEDBF241540C0C7008DFACC /* Security.framework */,
 				5DEDBF221540C0C1008DFACC /* SystemConfiguration.framework */,
@@ -305,23 +309,23 @@
 				5DEDBF1115409774008DFACC /* ContactViewController */,
 				5DEDBF0115408BA0008DFACC /* TabBarCLController */,
 				5DD30B04153A087500FF7A56 /* GalleryViewController */,
-				5DD30AE41539F47D00FF7A56 /* SocialNetViewController */,
+				5DD30AE41539F47D00FF7A56 /* GeneralWebViewController */,
 				5DD30AD61539E68A00FF7A56 /* MBProgressHUD */,
 				5DC6821A153968B7003BB0C3 /* RssFeedViewController */,
-				5DC68219153968AA003BB0C3 /* GeneralWebViewController */,
+				5DC68219153968AA003BB0C3 /* SocialNetViewController */,
 				5D2FCC701538DCCF00A4F530 /* HomeViewController */,
 			);
 			name = ControllerClass;
 			sourceTree = "<group>";
 		};
-		5DC68219153968AA003BB0C3 /* GeneralWebViewController */ = {
+		5DC68219153968AA003BB0C3 /* SocialNetViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1C7CB59B154053160083B299 /* SocialNetViewController.h */,
 				1C7CB59C154053160083B299 /* SocialNetViewController.m */,
 				1C7CB59D154053160083B299 /* SocialNetViewController.xib */,
 			);
-			name = GeneralWebViewController;
+			name = SocialNetViewController;
 			sourceTree = "<group>";
 		};
 		5DC6821A153968B7003BB0C3 /* RssFeedViewController */ = {
@@ -343,14 +347,14 @@
 			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		5DD30AE41539F47D00FF7A56 /* SocialNetViewController */ = {
+		5DD30AE41539F47D00FF7A56 /* GeneralWebViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1C7CB591154052E50083B299 /* GeneralWebViewController.h */,
 				1C7CB592154052E50083B299 /* GeneralWebViewController.m */,
 				1C7CB593154052E50083B299 /* GeneralWebViewController.xib */,
 			);
-			name = SocialNetViewController;
+			name = GeneralWebViewController;
 			sourceTree = "<group>";
 		};
 		5DD30B04153A087500FF7A56 /* GalleryViewController */ = {
@@ -657,9 +661,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -678,10 +682,10 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -698,8 +702,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -714,8 +718,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
