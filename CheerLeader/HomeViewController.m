@@ -86,15 +86,57 @@
 
 -(void)goToAd:(UITapGestureRecognizer *)recognizer
 {
-    NSLog(@"jknfvjfknsv");
-    
-    [[UIApplication  sharedApplication] openURL:[NSURL URLWithString:LinkToAdd]];
+       [[UIApplication  sharedApplication] openURL:[NSURL URLWithString:stringUrl]];
 }
 
+-(void)changeAd
+{
+    NSLog(@"%s",__PRETTY_FUNCTION__);
+    switch (counter) {
+        case 0:
+        {
+            imageViewAd.image = [UIImage imageNamed:@"iPhone_Shoe.png"];
+            stringUrl = URLSHOE;
+            counter = 1;
+            
+        }
+            break;
+        case 1:
+        {
+            imageViewAd.image = [UIImage  imageNamed:@"EPIC_iPhone.jpg"];
+            stringUrl = URLEPIC;
+            counter = 2;
+            
+        }
+            break;
+        case 2:
+        {
+            imageViewAd.image = [UIImage imageNamed:@"AdCheerLeader.png"];
+            stringUrl = LinkToAdd;
+
+            counter = 0;
+            
+        }
+            break;
+        default:
+            break;
+    }
+
+}
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
+     imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],[UIImage imageNamed:@"iPhone_Shoe.png"],[UIImage  imageNamed:@"EPIC_iPhone.jpg"], nil];
+    timerAd = [NSTimer   scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(changeAd) userInfo:nil repeats:YES];
+    
+    
+    
+//    self.imageViewAd.animationImages = [NSArray arrayWithArray:imageArray];
+//    self.imageViewAd.animationDuration = 12.0;
+//    self.imageViewAd.animationRepeatCount = 0;
+//    [self.imageViewAd startAnimating];
+    
     
     [ModalController  setGradientinView:self.view];
     

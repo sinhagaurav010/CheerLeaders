@@ -226,7 +226,9 @@
     //    CGFloat bottom = 80.0/255.0;
     //255-239-213
     //186-85-211
-    CGColorRef topColor = [[UIColor colorWithRed:0.044 green:.2844 blue:.4355 alpha:1.0] CGColor];
+//    CGColorRef topColor = [[UIColor colorWithRed:0.044 green:.2844 blue:.4355 alpha:1.0] CGColor];
+    CGColorRef topColor = [[UIColor  whiteColor] CGColor];
+
     CGColorRef bottomColor = [[UIColor blueColor] CGColor];
     gradient.colors = [NSArray arrayWithObjects:(id)topColor, (id)bottomColor, nil];
     

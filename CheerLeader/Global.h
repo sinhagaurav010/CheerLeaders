@@ -27,3 +27,7 @@ BOOL isPad;
 #define LinkToAdd @"http://www.highlevelstudios.com/"
 
 #define SUBSRIBE @"http://www.subscribeic.com/"
+
+#define URLEPIC @"http://www.theepicbrands.com"
+
+#define URLSHOE @"http://www.nfinity.com"

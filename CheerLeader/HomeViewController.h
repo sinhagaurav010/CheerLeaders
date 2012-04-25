@@ -13,7 +13,13 @@
 #import "GalleryViewController.h"
 
 @interface HomeViewController : UIViewController
-
+{
+    NSTimer *timerAd;
+    NSArray *imageArray;
+    NSInteger counter;
+    
+    NSString *stringUrl;
+}
 
 @property(retain)IBOutlet UIImageView *imageViewAd;
 
