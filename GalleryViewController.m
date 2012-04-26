@@ -28,14 +28,45 @@
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
-    if([timer isValid])
-        [timer  invalidate];
+        if([timer isValid])
+        {
+            [timer  invalidate];
+            timer = nil;
+        }
 }
 
+-(IBAction)pause:(id)sender
+{
+    
+    if(buttonPlayPause.selected == 1)
+    {
+        buttonPlayPause.selected = 0;
+    }
+    else {
+        buttonPlayPause.selected = 1;
+    }
+    
+    if([timer isValid])
+        [timer invalidate];
+    else {
+        timer = [NSTimer  scheduledTimerWithTimeInterval:1.0 
+                                                  target:self 
+                                                selector:@selector(slide) 
+                                                userInfo:nil 
+                                                 repeats:YES];
+    }
+    
+}
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
+    
+    [buttonPlayPause  setImage:[UIImage imageNamed:@"playback_play.png"] forState:UIControlStateNormal  ];
+    
+    [buttonPlayPause  setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal  ];
+    
+    buttonPlayPause.selected = 0;
     
     [ModalController  setGradientinView:self.view];
     counter = 0;

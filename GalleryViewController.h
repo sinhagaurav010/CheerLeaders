@@ -11,6 +11,9 @@
 #import "ModalController.h"
 @interface GalleryViewController : UIViewController
 {
+    
+    IBOutlet UIButton *buttonPlayPause;
+    
     NSInteger counter;
     NSTimer *timer;
 }
@@ -20,6 +23,8 @@
 
 
 -(IBAction)clickOnRight:(id)sender;
+
+-(IBAction)pause:(id)sender;
 
 -(IBAction)clickOnLeft:(id)sender;
 @end
