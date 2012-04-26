@@ -13,9 +13,14 @@
 {
     
     IBOutlet UIButton *buttonPlayPause;
+    IBOutlet UIButton *leftButon;
+    IBOutlet UIButton *rightButon;
     
+     IBOutlet UIView *viewbuttons;
     NSInteger counter;
     NSTimer *timer;
+    
+    IBOutlet UIButton *buttonpauuseplay;
 }
 @property(retain)    IBOutlet UIScrollView *scrllGallery;
 

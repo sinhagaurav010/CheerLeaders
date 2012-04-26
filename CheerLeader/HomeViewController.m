@@ -23,8 +23,11 @@
 
 -(IBAction)RSSFeed:(id)sender
 {
-    RssFeedViewController *rssController = [[RssFeedViewController alloc] init];
+    RootViewController *rssController = [[RootViewController alloc] init];
+    rssController.stringURL = RSSFeedLink;
+    rssController.titleString = @"The Buzz",
     [self.navigationController  pushViewController:rssController animated:YES];
+
 }
 -(IBAction)SocialNet:(id)sender
 {
@@ -46,12 +49,17 @@
 {}
 -(IBAction)newsLetter:(id)sender
 {
-    GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
-    GeneralWebController.stringURL = NewsLink;
-    GeneralWebController.isFromtab = 1;
-    GeneralWebController.stringTitle  = @"NewsLetter";
-    
-    [self.navigationController  pushViewController:GeneralWebController animated:YES];
+//    GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
+//    GeneralWebController.stringURL = NewsLink;
+//    GeneralWebController.isFromtab = 1;
+//    GeneralWebController.stringTitle  = @"NewsLetter";
+//    
+//    [self.navigationController  pushViewController:GeneralWebController animated:YES];
+
+    RootViewController *rssController = [[RootViewController alloc] init];
+    rssController.stringURL = @"http://blog.insidecheerleading.com/feeds/posts/default";
+    rssController.titleString = @"NewsLetter";
+    [self.navigationController  pushViewController:rssController animated:YES];
 }
 
 -(IBAction)gallery:(id)sender
@@ -127,8 +135,15 @@
 
 - (void)viewDidLoad
 {
-     imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],[UIImage imageNamed:@"iPhone_Shoe.png"],[UIImage  imageNamed:@"EPIC_iPhone.jpg"], nil];
-    timerAd = [NSTimer   scheduledTimerWithTimeInterval:3.0 target:self selector:@selector(changeAd) userInfo:nil repeats:YES];
+     imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],
+                                             [UIImage imageNamed:@"iPhone_Shoe.png"],
+                                            [UIImage  imageNamed:@"EPIC_iPhone.jpg"], nil];
+    
+    timerAd = [NSTimer   scheduledTimerWithTimeInterval:3.0 
+                                                 target:self 
+                                               selector:@selector(changeAd) 
+                                               userInfo:nil 
+                                                repeats:YES];
     
     
     
@@ -140,14 +155,15 @@
     
     [ModalController  setGradientinView:self.view];
     
-    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self action:@selector(goToAd:)];
+    UITapGestureRecognizer *gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self 
+                                                                               action:@selector(goToAd:)];
     imageViewAd.userInteractionEnabled = YES;
     [imageViewAd addGestureRecognizer:gesture];
     
     
     
     [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
-    self.navigationItem.title = @"Inside CheerLeader";
+    self.navigationItem.title = @"Inside Cheerleading";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

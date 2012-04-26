@@ -37,19 +37,30 @@
 
 -(IBAction)pause:(id)sender
 {
+    NSLog(@"%s",__PRETTY_FUNCTION__);
     
     if(buttonPlayPause.selected == 1)
     {
         buttonPlayPause.selected = 0;
     }
-    else {
+    else
+    {
         buttonPlayPause.selected = 1;
     }
     
     if([timer isValid])
+    {
+        leftButon.enabled = YES;
+        rightButon.enabled = YES;
+        
         [timer invalidate];
-    else {
-        timer = [NSTimer  scheduledTimerWithTimeInterval:1.0 
+        timer = nil;
+    }
+    else 
+    {
+        leftButon.enabled = NO;
+        rightButon.enabled = NO;
+        timer = [NSTimer  scheduledTimerWithTimeInterval:2.0 
                                                   target:self 
                                                 selector:@selector(slide) 
                                                 userInfo:nil 
@@ -62,7 +73,10 @@
 - (void)viewDidLoad
 {
     
-    [buttonPlayPause  setImage:[UIImage imageNamed:@"playback_play.png"] forState:UIControlStateNormal  ];
+    
+    buttonPlayPause.enabled = YES;
+    
+    [buttonPlayPause  setImage:[UIImage imageNamed:@"playback_play.png"] forState:UIControlStateSelected  ];
     
     [buttonPlayPause  setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal  ];
     
@@ -77,7 +91,7 @@
         arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",nil];
     }
     
-    
+    viewbuttons.userInteractionEnabled = YES;
     
     scrllGallery.userInteractionEnabled = NO;
     [scrllGallery setContentSize:CGSizeMake(320*[arrayImages  count], 367)];
@@ -96,7 +110,7 @@
     }
     
     [self.view setBackgroundColor:[UIColor  blueColor]];
-    timer = [NSTimer  scheduledTimerWithTimeInterval:1.0 
+    timer = [NSTimer  scheduledTimerWithTimeInterval:2.0 
                                               target:self 
                                             selector:@selector(slide) 
                                             userInfo:nil 

@@ -10,6 +10,8 @@
 
 @implementation RssFeedViewController
 
+@synthesize stringurl;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -110,7 +112,7 @@
 	
 	if ([stories count] == 0) 
     {
-		NSString * path = RSSFeedLink;
+		NSString * path = self.stringurl;
         [self parseXMLFileAtURL:path];
 	}
 	

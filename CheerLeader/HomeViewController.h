@@ -11,7 +11,7 @@
 #import "GeneralWebViewController.h"
 #import "SocialNetViewController.h"
 #import "GalleryViewController.h"
-
+#import "RootViewController.h"
 @interface HomeViewController : UIViewController
 {
     NSTimer *timerAd;

@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "Global.h"
 #import "MBProgressHUD.h"
+#import "ModalController.h"
 
 #import "GeneralWebViewController.h"
 
 @interface RssFeedViewController : UIViewController
 {
+    
+    ModalController *modal;
 
     IBOutlet UITableView * newsTable;
 	
@@ -36,4 +39,5 @@
 	NSMutableString * currentTitle, * currentDate, * currentSummary, * currentLink;
 
 }
+@property(retain)NSString *stringurl;
 @end

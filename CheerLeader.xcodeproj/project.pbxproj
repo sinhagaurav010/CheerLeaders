@@ -26,6 +26,18 @@
 		1CF510B315499D0800CBD618 /* EPIC_iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1CF510B115499D0800CBD618 /* EPIC_iPad.jpg */; };
 		1CF510B415499D0800CBD618 /* iPhone_Shoe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF510B215499D0800CBD618 /* iPhone_Shoe.png */; };
 		5D02E46615434E2900979950 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D02E46515434E2800979950 /* QuartzCore.framework */; };
+		5D0474381549EB8100BF7753 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0474371549EB8000BF7753 /* RootViewController.m */; };
+		5D04743B1549EB9E00BF7753 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D04743A1549EB9E00BF7753 /* RootViewController.xib */; };
+		5D0474431549EBBD00BF7753 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D04743E1549EBBC00BF7753 /* MWFeedParser.m */; };
+		5D0474441549EBBD00BF7753 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0474401549EBBC00BF7753 /* MWFeedInfo.m */; };
+		5D0474451549EBBD00BF7753 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0474421549EBBC00BF7753 /* MWFeedItem.m */; };
+		5D04744A1549EBC600BF7753 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0474471549EBC600BF7753 /* NSString+HTML.m */; };
+		5D04744B1549EBC600BF7753 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0474491549EBC600BF7753 /* NSDate+InternetDateTime.m */; };
+		5D0474501549EBD300BF7753 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D04744D1549EBD300BF7753 /* GTMNSString+HTML.m */; };
+		5D0474511549EBD300BF7753 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D04744F1549EBD300BF7753 /* NSString+XMLEntities.m */; };
+		5D0474541549F72900BF7753 /* facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474531549F72900BF7753 /* facebook_icon.png */; };
+		5D0474561549F80C00BF7753 /* twittericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474551549F80C00BF7753 /* twittericon.png */; };
+		5D0474581549F85400BF7753 /* linkedin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474571549F85400BF7753 /* linkedin_icon.png */; };
 		5D2FCC4B1538DBA600A4F530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4A1538DBA600A4F530 /* UIKit.framework */; };
 		5D2FCC4D1538DBA600A4F530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4C1538DBA600A4F530 /* Foundation.framework */; };
 		5D2FCC4F1538DBA600A4F530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4E1538DBA600A4F530 /* CoreGraphics.framework */; };
@@ -169,6 +181,27 @@
 		1CF510B115499D0800CBD618 /* EPIC_iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = EPIC_iPad.jpg; path = "ic app/EPIC_iPad.jpg"; sourceTree = "<group>"; };
 		1CF510B215499D0800CBD618 /* iPhone_Shoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone_Shoe.png; path = "ic app/iPhone_Shoe.png"; sourceTree = "<group>"; };
 		5D02E46515434E2800979950 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D0474361549EB8000BF7753 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5D0474371549EB8000BF7753 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5D04743A1549EB9E00BF7753 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		5D04743C1549EBBC00BF7753 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		5D04743D1549EBBC00BF7753 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		5D04743E1549EBBC00BF7753 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		5D04743F1549EBBC00BF7753 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		5D0474401549EBBC00BF7753 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		5D0474411549EBBC00BF7753 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		5D0474421549EBBC00BF7753 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		5D0474461549EBC600BF7753 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		5D0474471549EBC600BF7753 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		5D0474481549EBC600BF7753 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		5D0474491549EBC600BF7753 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		5D04744C1549EBD300BF7753 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		5D04744D1549EBD300BF7753 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		5D04744E1549EBD300BF7753 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		5D04744F1549EBD300BF7753 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		5D0474531549F72900BF7753 /* facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_icon.png; sourceTree = "<group>"; };
+		5D0474551549F80C00BF7753 /* twittericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twittericon.png; sourceTree = "<group>"; };
+		5D0474571549F85400BF7753 /* linkedin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin_icon.png; sourceTree = "<group>"; };
 		5D2FCC461538DBA500A4F530 /* CheerLeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheerLeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2FCC4A1538DBA600A4F530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D2FCC4C1538DBA600A4F530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -309,6 +342,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D0474521549EBDB00BF7753 /* RSSFeed */ = {
+			isa = PBXGroup;
+			children = (
+				5D0474361549EB8000BF7753 /* RootViewController.h */,
+				5D0474371549EB8000BF7753 /* RootViewController.m */,
+				5D04743A1549EB9E00BF7753 /* RootViewController.xib */,
+				5D04743C1549EBBC00BF7753 /* MWFeedParser.h */,
+				5D04743D1549EBBC00BF7753 /* MWFeedParser_Private.h */,
+				5D04743E1549EBBC00BF7753 /* MWFeedParser.m */,
+				5D04743F1549EBBC00BF7753 /* MWFeedInfo.h */,
+				5D0474401549EBBC00BF7753 /* MWFeedInfo.m */,
+				5D0474411549EBBC00BF7753 /* MWFeedItem.h */,
+				5D0474421549EBBC00BF7753 /* MWFeedItem.m */,
+				5D0474461549EBC600BF7753 /* NSString+HTML.h */,
+				5D0474471549EBC600BF7753 /* NSString+HTML.m */,
+				5D0474481549EBC600BF7753 /* NSDate+InternetDateTime.h */,
+				5D0474491549EBC600BF7753 /* NSDate+InternetDateTime.m */,
+				5D04744C1549EBD300BF7753 /* GTMNSString+HTML.h */,
+				5D04744D1549EBD300BF7753 /* GTMNSString+HTML.m */,
+				5D04744E1549EBD300BF7753 /* NSString+XMLEntities.h */,
+				5D04744F1549EBD300BF7753 /* NSString+XMLEntities.m */,
+			);
+			name = RSSFeed;
+			sourceTree = "<group>";
+		};
 		5D2FCC3B1538DBA500A4F530 = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +454,7 @@
 		5D2FCC711538DCDA00A4F530 /* ControllerClass */ = {
 			isa = PBXGroup;
 			children = (
+				5D0474521549EBDB00BF7753 /* RSSFeed */,
 				5DEDBF1115409774008DFACC /* ContactViewController */,
 				5DEDBF0115408BA0008DFACC /* TabBarCLController */,
 				5DD30B04153A087500FF7A56 /* GalleryViewController */,
@@ -510,6 +569,9 @@
 		5DD30B5C153A0A7800FF7A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5D0474571549F85400BF7753 /* linkedin_icon.png */,
+				5D0474551549F80C00BF7753 /* twittericon.png */,
+				5D0474531549F72900BF7753 /* facebook_icon.png */,
 				1CF510AB1549926E00CBD618 /* pause.png */,
 				1CF510A915498D6100CBD618 /* playback_play.png */,
 				5DD692FA15488EE8007F353F /* ic app */,
@@ -786,6 +848,10 @@
 				1CF510AC1549926E00CBD618 /* pause.png in Resources */,
 				1CF510B315499D0800CBD618 /* EPIC_iPad.jpg in Resources */,
 				1CF510B415499D0800CBD618 /* iPhone_Shoe.png in Resources */,
+				5D04743B1549EB9E00BF7753 /* RootViewController.xib in Resources */,
+				5D0474541549F72900BF7753 /* facebook_icon.png in Resources */,
+				5D0474561549F80C00BF7753 /* twittericon.png in Resources */,
+				5D0474581549F85400BF7753 /* linkedin_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,6 +874,14 @@
 				5DEDBF211540C05C008DFACC /* Reachability.m in Sources */,
 				1C1DDE2315416121008918DB /* ContactViewController.m in Sources */,
 				1C1DDE2515416121008918DB /* TabBarCLController.m in Sources */,
+				5D0474381549EB8100BF7753 /* RootViewController.m in Sources */,
+				5D0474431549EBBD00BF7753 /* MWFeedParser.m in Sources */,
+				5D0474441549EBBD00BF7753 /* MWFeedInfo.m in Sources */,
+				5D0474451549EBBD00BF7753 /* MWFeedItem.m in Sources */,
+				5D04744A1549EBC600BF7753 /* NSString+HTML.m in Sources */,
+				5D04744B1549EBC600BF7753 /* NSDate+InternetDateTime.m in Sources */,
+				5D0474501549EBD300BF7753 /* GTMNSString+HTML.m in Sources */,
+				5D0474511549EBD300BF7753 /* NSString+XMLEntities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

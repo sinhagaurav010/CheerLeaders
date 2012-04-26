@@ -28,6 +28,50 @@ BOOL isPad;
 
 #define SUBSRIBE @"http://www.subscribeic.com/"
 
+#define  CONTACTURL @"http://www.subscribeic.com/login.asp"
+
 #define URLEPIC @"http://www.theepicbrands.com"
 
 #define URLSHOE @"http://www.nfinity.com"
+
+
+/*
+ * Remove white boxes around all icons including main app icon
+ Done
+ 
+ * Change blue background to white with blue gradient
+ Done
+ 
+ * Insert vault banner as well and make rotate with subscribe banner
+ Done
+ 
+ * Change title from Inside Cheerleader to Inside Cheerleading
+ Done
+ 
+ * iC News should be called The Buzz (we will be sending new icon)
+ Done
+ 
+ * Icon for events is the "iC On The Scene" icon
+ Done
+ 
+ * we will be sending a new icon for button “Subscribe”
+ Done
+ 
+ * We are providing RSS feeds for Events
+ Done
+ 
+ * In Gallery, add Pause, Play Back and Next buttons
+ Done
+ 
+ * Slow down transition speed of Gallery images
+ Done
+ 
+ * Remove white from social networking icons and remove LinkedIn
+ Done
+ 
+ * Newsletter we will be sending
+ Done
+ 
+ * Contact should be a form with Name, Email and message
+ Done
+ */

@@ -40,7 +40,7 @@
 					<object class="IBUIButton" id="339194727">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{25, 90}, {63, 72}}</string>
+						<string key="NSFrame">{{25, 94}, {63, 68}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="224530511"/>
@@ -63,7 +63,7 @@
 						</object>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">ic-57.png</string>
+							<string key="NSResourceName">ic-58.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="399745510">
 							<int key="type">2</int>
@@ -78,7 +78,7 @@
 					<object class="IBUIButton" id="147103695">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{217, 245}, {66, 64}}</string>
+						<string key="NSFrame">{{221, 250}, {59, 57}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="363160029"/>
@@ -203,7 +203,7 @@
 					<object class="IBUILabel" id="1025339212">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 163}, {73, 21}}</string>
+						<string key="NSFrame">{{19, 163}, {75, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="959896082"/>
@@ -212,7 +212,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText"> IC News</string>
+						<string key="IBUIText">The Buzz</string>
 						<object class="NSColor" key="IBUITextColor" id="759422968">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -234,7 +234,7 @@
 					<object class="IBUILabel" id="363160029">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 313}, {72, 21}}</string>
+						<string key="NSFrame">{{20, 311}, {72, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="938444458"/>
@@ -255,7 +255,7 @@
 					<object class="IBUILabel" id="938444458">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{112, 315}, {86, 25}}</string>
+						<string key="NSFrame">{{112, 309}, {86, 25}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="950862357"/>
@@ -297,7 +297,7 @@
 					<object class="IBUILabel" id="950862357">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{212, 315}, {83, 21}}</string>
+						<string key="NSFrame">{{212, 311}, {83, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -472,7 +472,6 @@
 							<reference ref="224530511"/>
 							<reference ref="282412082"/>
 							<reference ref="446712567"/>
-							<reference ref="147103695"/>
 							<reference ref="1025339212"/>
 							<reference ref="959896082"/>
 							<reference ref="953813075"/>
@@ -481,6 +480,7 @@
 							<reference ref="950862357"/>
 							<reference ref="949679338"/>
 							<reference ref="489920681"/>
+							<reference ref="147103695"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -657,7 +657,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="AdCheerLeader.png">{468, 60}</string>
 			<string key="gallery-57.png">{57, 57}</string>
-			<string key="ic-57.png">{57, 57}</string>
+			<string key="ic-58.png">{58, 58}</string>
 			<string key="newsletter-57.png">{57, 57}</string>
 			<string key="social-57.png">{57, 57}</string>
 			<string key="subscribe-72.png">{72, 72}</string>

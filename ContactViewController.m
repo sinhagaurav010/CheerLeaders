@@ -66,7 +66,7 @@
         MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
         hud.labelText=@"Loading...";
         
-        [webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:SUBSRIBE]]];
+        [webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:CONTACTURL]]];
         
     }
     else
