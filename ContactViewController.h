@@ -10,8 +10,13 @@
 #import "MBProgressHUD.h"
 #import "ModalController.h"
 #import "Global.h"
-@interface ContactViewController : UIViewController<UIWebViewDelegate>
+#import <MessageUI/MessageUI.h>
+@interface ContactViewController : UIViewController<UITextFieldDelegate,MFMailComposeViewControllerDelegate>
 {
-    IBOutlet UIWebView *webview;
+    NSMutableArray *arraytextField;
+    NSMutableArray *arrayOption;
+    IBOutlet UITableView *tableViewCont;
 }
+-(void)clickOn:(NSString *)stringEmailId withMessage:(NSString *)strMsg;
+
 @end

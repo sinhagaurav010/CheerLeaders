@@ -38,7 +38,7 @@
 					<object class="IBUIButton" id="99880956">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{122, 65}, {76, 62}}</string>
+						<string key="NSFrame">{{122, 117}, {76, 62}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1004630174"/>
@@ -75,31 +75,7 @@
 					<object class="IBUIButton" id="1004630174">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{122, 155}, {76, 62}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="685541721"/>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIHighlightedTitleColor" ref="778188376"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="56961856"/>
-						<object class="NSCustomResource" key="IBUINormalImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">facebook_icon.png</string>
-						</object>
-						<reference key="IBUIFontDescription" ref="64039707"/>
-						<reference key="IBUIFont" ref="808273844"/>
-					</object>
-					<object class="IBUIButton" id="685541721">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{129, 247}, {62, 62}}</string>
+						<string key="NSFrame">{{122, 241}, {76, 62}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -113,9 +89,9 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="56961856"/>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
+						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">linkedin_icon.png</string>
+							<string key="NSResourceName">facebook_icon.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="64039707"/>
 						<reference key="IBUIFont" ref="808273844"/>
@@ -164,15 +140,6 @@
 					</object>
 					<int key="connectionID">7</int>
 				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">ClickOnLinkedIn:</string>
-						<reference key="source" ref="685541721"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">8</int>
-				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -188,7 +155,6 @@
 						<array class="NSMutableArray" key="children">
 							<reference ref="99880956"/>
 							<reference ref="1004630174"/>
-							<reference ref="685541721"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -213,11 +179,6 @@
 						<reference key="object" ref="1004630174"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">6</int>
-						<reference key="object" ref="685541721"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -228,7 +189,6 @@
 				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="5.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
@@ -273,7 +233,6 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="facebook_icon.png">{64, 64}</string>
-			<string key="linkedin_icon.png">{50, 50}</string>
 			<string key="twittericon.png">{64, 64}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>

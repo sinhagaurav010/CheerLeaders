@@ -34,44 +34,32 @@ BOOL isPad;
 
 #define URLSHOE @"http://www.nfinity.com"
 
+#define URLVAULTMEDIA @"http://vaulteventmedia.com/"
+
+#define URLEVENT @"http://blog.insidecheerleading.com/feeds/posts/default"
+
+#define EMAILTO @"info@insidecheerleading.com"
 
 /*
- * Remove white boxes around all icons including main app icon
+ 1. Contact should be a form like attached.
+ 2. News Button on bottom bar should be called The Buzz not News and be linked to same feed as the buzz icon
  Done
  
- * Change blue background to white with blue gradient
+ 3. removed linkedin icon from social button
  Done
  
- * Insert vault banner as well and make rotate with subscribe banner
+ 4. Make "Social Networking" just say Social
  Done
  
- * Change title from Inside Cheerleader to Inside Cheerleading
+ 5. Can we use all same size fonts for text under icons
  Done
  
- * iC News should be called The Buzz (we will be sending new icon)
+ 6. Newsletter Icon should be replaced with the attached events icon
  Done
  
- * Icon for events is the "iC On The Scene" icon
+ 7. We have 1 more banner add to add to the top. It is for Vault we are sending shortly the banners and links
  Done
  
- * we will be sending a new icon for button “Subscribe”
+ 8. Newsletter Icon should be removed and replaced with attached events icon and the events icon and bottom icon butoon sgould both be linked to this feed http://blog.insidegymnastics.com/feeds/posts/default
  Done
- 
- * We are providing RSS feeds for Events
- Done
- 
- * In Gallery, add Pause, Play Back and Next buttons
- Done
- 
- * Slow down transition speed of Gallery images
- Done
- 
- * Remove white from social networking icons and remove LinkedIn
- Done
- 
- * Newsletter we will be sending
- Done
- 
- * Contact should be a form with Name, Email and message
- Done
- */
+  */

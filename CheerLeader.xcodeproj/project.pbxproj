@@ -38,6 +38,15 @@
 		5D0474541549F72900BF7753 /* facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474531549F72900BF7753 /* facebook_icon.png */; };
 		5D0474561549F80C00BF7753 /* twittericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474551549F80C00BF7753 /* twittericon.png */; };
 		5D0474581549F85400BF7753 /* linkedin_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0474571549F85400BF7753 /* linkedin_icon.png */; };
+		5D2FA6F8154B37A700D52076 /* vault-320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F0154B37A700D52076 /* vault-320.png */; };
+		5D2FA6F9154B37A700D52076 /* vault-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F1154B37A700D52076 /* vault-480.png */; };
+		5D2FA6FA154B37A700D52076 /* vault-768.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F2154B37A700D52076 /* vault-768.png */; };
+		5D2FA6FB154B37A700D52076 /* vault-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F3154B37A700D52076 /* vault-1024.png */; };
+		5D2FA6FC154B37A700D52076 /* blog-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F4154B37A700D52076 /* blog-57.png */; };
+		5D2FA6FD154B37A700D52076 /* blog-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F5154B37A700D52076 /* blog-72.png */; };
+		5D2FA6FE154B37A700D52076 /* blog-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F6154B37A700D52076 /* blog-144.png */; };
+		5D2FA6FF154B37A700D52076 /* blog-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FA6F7154B37A700D52076 /* blog-114.png */; };
+		5D2FA70A154B4EE600D52076 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FA709154B4EE600D52076 /* MessageUI.framework */; };
 		5D2FCC4B1538DBA600A4F530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4A1538DBA600A4F530 /* UIKit.framework */; };
 		5D2FCC4D1538DBA600A4F530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4C1538DBA600A4F530 /* Foundation.framework */; };
 		5D2FCC4F1538DBA600A4F530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2FCC4E1538DBA600A4F530 /* CoreGraphics.framework */; };
@@ -202,6 +211,15 @@
 		5D0474531549F72900BF7753 /* facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_icon.png; sourceTree = "<group>"; };
 		5D0474551549F80C00BF7753 /* twittericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twittericon.png; sourceTree = "<group>"; };
 		5D0474571549F85400BF7753 /* linkedin_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin_icon.png; sourceTree = "<group>"; };
+		5D2FA6F0154B37A700D52076 /* vault-320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vault-320.png"; sourceTree = "<group>"; };
+		5D2FA6F1154B37A700D52076 /* vault-480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vault-480.png"; sourceTree = "<group>"; };
+		5D2FA6F2154B37A700D52076 /* vault-768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vault-768.png"; sourceTree = "<group>"; };
+		5D2FA6F3154B37A700D52076 /* vault-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vault-1024.png"; sourceTree = "<group>"; };
+		5D2FA6F4154B37A700D52076 /* blog-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blog-57.png"; sourceTree = "<group>"; };
+		5D2FA6F5154B37A700D52076 /* blog-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blog-72.png"; sourceTree = "<group>"; };
+		5D2FA6F6154B37A700D52076 /* blog-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blog-144.png"; sourceTree = "<group>"; };
+		5D2FA6F7154B37A700D52076 /* blog-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blog-114.png"; sourceTree = "<group>"; };
+		5D2FA709154B4EE600D52076 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5D2FCC461538DBA500A4F530 /* CheerLeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheerLeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2FCC4A1538DBA600A4F530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D2FCC4C1538DBA600A4F530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -329,6 +347,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2FA70A154B4EE600D52076 /* MessageUI.framework in Frameworks */,
 				5D02E46615434E2900979950 /* QuartzCore.framework in Frameworks */,
 				5DEDBF271540C111008DFACC /* CFNetwork.framework in Frameworks */,
 				5DEDBF251540C0C7008DFACC /* Security.framework in Frameworks */,
@@ -370,6 +389,7 @@
 		5D2FCC3B1538DBA500A4F530 = {
 			isa = PBXGroup;
 			children = (
+				5D2FA709154B4EE600D52076 /* MessageUI.framework */,
 				1CF510B115499D0800CBD618 /* EPIC_iPad.jpg */,
 				1CF510B215499D0800CBD618 /* iPhone_Shoe.png */,
 				5D02E46515434E2800979950 /* QuartzCore.framework */,
@@ -569,6 +589,14 @@
 		5DD30B5C153A0A7800FF7A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5D2FA6F0154B37A700D52076 /* vault-320.png */,
+				5D2FA6F1154B37A700D52076 /* vault-480.png */,
+				5D2FA6F2154B37A700D52076 /* vault-768.png */,
+				5D2FA6F3154B37A700D52076 /* vault-1024.png */,
+				5D2FA6F4154B37A700D52076 /* blog-57.png */,
+				5D2FA6F5154B37A700D52076 /* blog-72.png */,
+				5D2FA6F6154B37A700D52076 /* blog-144.png */,
+				5D2FA6F7154B37A700D52076 /* blog-114.png */,
 				5D0474571549F85400BF7753 /* linkedin_icon.png */,
 				5D0474551549F80C00BF7753 /* twittericon.png */,
 				5D0474531549F72900BF7753 /* facebook_icon.png */,
@@ -852,6 +880,14 @@
 				5D0474541549F72900BF7753 /* facebook_icon.png in Resources */,
 				5D0474561549F80C00BF7753 /* twittericon.png in Resources */,
 				5D0474581549F85400BF7753 /* linkedin_icon.png in Resources */,
+				5D2FA6F8154B37A700D52076 /* vault-320.png in Resources */,
+				5D2FA6F9154B37A700D52076 /* vault-480.png in Resources */,
+				5D2FA6FA154B37A700D52076 /* vault-768.png in Resources */,
+				5D2FA6FB154B37A700D52076 /* vault-1024.png in Resources */,
+				5D2FA6FC154B37A700D52076 /* blog-57.png in Resources */,
+				5D2FA6FD154B37A700D52076 /* blog-72.png in Resources */,
+				5D2FA6FE154B37A700D52076 /* blog-144.png in Resources */,
+				5D2FA6FF154B37A700D52076 /* blog-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,8 +956,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -942,7 +978,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -960,8 +996,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -976,8 +1012,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4132B492-D791-40FD-9E27-CD5FF8D840D2";
+				PROVISIONING_PROFILE = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "980396A0-B896-4928-9C3D-AD1ECA9C454F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

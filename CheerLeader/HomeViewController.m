@@ -57,7 +57,7 @@
 //    [self.navigationController  pushViewController:GeneralWebController animated:YES];
 
     RootViewController *rssController = [[RootViewController alloc] init];
-    rssController.stringURL = @"http://blog.insidecheerleading.com/feeds/posts/default";
+    rssController.stringURL = URLEVENT;
     rssController.titleString = @"NewsLetter";
     [self.navigationController  pushViewController:rssController animated:YES];
 }
@@ -122,6 +122,15 @@
             imageViewAd.image = [UIImage imageNamed:@"AdCheerLeader.png"];
             stringUrl = LinkToAdd;
 
+            counter = 3;
+            
+        }
+            break;
+        case 3:
+        {
+            imageViewAd.image = [UIImage imageNamed:@"vault-320.png"];
+            stringUrl = URLVAULTMEDIA;
+            
             counter = 0;
             
         }
@@ -137,7 +146,9 @@
 {
      imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],
                                              [UIImage imageNamed:@"iPhone_Shoe.png"],
-                                            [UIImage  imageNamed:@"EPIC_iPhone.jpg"], nil];
+                                             [UIImage  imageNamed:@"EPIC_iPhone.jpg"], 
+                                             [UIImage imageNamed:@"vault-320.png"],
+                                             nil];
     
     timerAd = [NSTimer   scheduledTimerWithTimeInterval:3.0 
                                                  target:self 

@@ -145,7 +145,7 @@
 						<reference key="IBUINormalTitleShadowColor" ref="190317838"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">newsletter-57.png</string>
+							<string key="NSResourceName">events-57.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="399745510"/>
 						<reference key="IBUIFont" ref="906147054"/>
@@ -234,7 +234,7 @@
 					<object class="IBUILabel" id="363160029">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 311}, {72, 21}}</string>
+						<string key="NSFrame">{{20, 311}, {74, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="938444458"/>
@@ -255,7 +255,7 @@
 					<object class="IBUILabel" id="938444458">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{112, 309}, {86, 25}}</string>
+						<string key="NSFrame">{{112, 309}, {77, 25}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="950862357"/>
@@ -264,7 +264,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">News Letter</string>
+						<string key="IBUIText">Events</string>
 						<reference key="IBUITextColor" ref="759422968"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -276,7 +276,7 @@
 					<object class="IBUILabel" id="959896082">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{119, 163}, {72, 21}}</string>
+						<string key="NSFrame">{{119, 163}, {79, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="953813075"/>
@@ -297,7 +297,7 @@
 					<object class="IBUILabel" id="950862357">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{212, 311}, {83, 21}}</string>
+						<string key="NSFrame">{{203, 311}, {95, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -318,7 +318,7 @@
 					<object class="IBUILabel" id="953813075">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{212, 163}, {77, 41}}</string>
+						<string key="NSFrame">{{212, 163}, {77, 25}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="282412082"/>
@@ -327,7 +327,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Social Networking</string>
+						<string key="IBUIText">Social</string>
 						<reference key="IBUITextColor" ref="759422968"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -336,11 +336,11 @@
 						<int key="IBUITextAlignment">1</int>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<int key="type">2</int>
-							<double key="pointSize">14</double>
+							<double key="pointSize">18</double>
 						</object>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">14</double>
+							<double key="NSSize">18</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
@@ -656,9 +656,9 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="AdCheerLeader.png">{468, 60}</string>
+			<string key="events-57.png">{57, 57}</string>
 			<string key="gallery-57.png">{57, 57}</string>
 			<string key="ic-58.png">{58, 58}</string>
-			<string key="newsletter-57.png">{57, 57}</string>
 			<string key="social-57.png">{57, 57}</string>
 			<string key="subscribe-72.png">{72, 72}</string>
 			<string key="youtube-57.png">{57, 57}</string>

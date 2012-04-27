@@ -30,8 +30,8 @@
 
 - (void)viewDidDisappear:(BOOL)animated
 {
-if([self.webview isLoading])
-    [self.webview stopLoading];
+    if([self.webview isLoading])
+        [self.webview stopLoading];
 }
 
 

@@ -50,7 +50,6 @@
 	// Setup
 //	self.title = @"Loading...";
     
-    self.navigationItem.title = self.titleString;
 	formatter = [[NSDateFormatter alloc] init];
 	[formatter setDateStyle:NSDateFormatterShortStyle];
 	[formatter setTimeStyle:NSDateFormatterShortStyle];
@@ -64,10 +63,21 @@
 //	// Parse
     
     if(!self.stringURL)
-        self.stringURL = RSSFeedLink;
-    
+    {
+        if([self.navigationController.tabBarController selectedIndex]==1)
+        self.stringURL = URLEVENT;
+        else if([self.navigationController.tabBarController selectedIndex]==2)
+            self.stringURL = RSSFeedLink;
+    }
     if(!self.titleString)
-        self.navigationItem.title = @"Events";
+        if([self.navigationController.tabBarController selectedIndex]==1)
+            self.titleString = @"Blog";
+        else if([self.navigationController.tabBarController selectedIndex]==2)
+            self.titleString = @"The Buzz";
+//    NSLog(@"-----%d",);
+    
+    self.navigationItem.title = self.titleString;
+
     
 	NSURL *feedURL = [NSURL URLWithString:self.stringURL];
 	feedParser = [[MWFeedParser alloc] initWithFeedURL:feedURL];
