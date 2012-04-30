@@ -93,7 +93,7 @@
                                                                              style:UIBarButtonItemStyleBordered 
                                                                             target:self
                                                                             action:@selector(Submit)];
-    [ModalController  setGradientinView:self.view];
+//    [ModalController  setGradientinView:self.view];
 
     tableViewCont.backgroundView = nil;
     tableViewCont.backgroundColor = [UIColor  clearColor],

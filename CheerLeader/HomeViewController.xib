@@ -364,8 +364,8 @@
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="949679338"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC41MjE4OTc4MTAyIDAuMzEwMjE4OTc4MSAwLjgwNjU2OTM0MzEgMC44AA</bytes>
+					<int key="NSColorSpace">3</int>
+					<bytes key="NSWhite">MSAwLjgAA</bytes>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedNavigationBarMetrics" key="IBUISimulatedTopBarMetrics">

@@ -164,7 +164,7 @@
 //    [self.imageViewAd startAnimating];
     
     
-    [ModalController  setGradientinView:self.view];
+//    [ModalController  setGradientinView:self.view];
     
     UITapGestureRecognizer *gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self 
                                                                                action:@selector(goToAd:)];

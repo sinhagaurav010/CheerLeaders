@@ -39,7 +39,19 @@ BOOL isPad;
 #define URLEVENT @"http://blog.insidecheerleading.com/feeds/posts/default"
 
 #define EMAILTO @"info@insidecheerleading.com"
-
+/*
+ Icons/banner ads are blurry can we do higher res or not force image size  don't worry because We are sending you new icons without the stripes anyway?
+ 
+ *Events icon is supposed to have the iC On The Scene verbage and not the calendar still says newsletter up top
+ 
+ *The app name in iTunes is wrong….they just want it to say Inside Cheer because of space….but now it says Inside Cheerleader…which is wrong anyway.
+ 
+ *Gallery pics are skewed…..and they prefer doing a thumbnail as opposed to a slideshow.  Additionally, the slide show only had ten covers….and they gave us dozens.  we need them all to show.
+ 
+ *Background behind menu….they decided no gradient just white.
+ 
+ *IC banner ad they think might be the iPad one….they claim it looks skewed
+ */
 /*
  1. Contact should be a form like attached.
  2. News Button on bottom bar should be called The Buzz not News and be linked to same feed as the buzz icon

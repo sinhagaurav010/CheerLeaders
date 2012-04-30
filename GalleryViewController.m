@@ -82,7 +82,7 @@
     
     buttonPlayPause.selected = 0;
     
-    [ModalController  setGradientinView:self.view];
+//    [ModalController  setGradientinView:self.view];
     counter = 0;
     self.navigationItem.title = @"Gallery";
     
