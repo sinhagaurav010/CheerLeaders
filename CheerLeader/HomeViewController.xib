@@ -63,7 +63,7 @@
 						</object>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">ic-58.png</string>
+							<string key="NSResourceName">rss-57.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="399745510">
 							<int key="type">2</int>
@@ -658,7 +658,7 @@
 			<string key="AdCheerLeader.png">{468, 60}</string>
 			<string key="events-57.png">{57, 57}</string>
 			<string key="gallery-57.png">{57, 57}</string>
-			<string key="ic-58.png">{58, 58}</string>
+			<string key="rss-57.png">{57, 57}</string>
 			<string key="social-57.png">{57, 57}</string>
 			<string key="subscribe-57.png">{57, 57}</string>
 			<string key="youtube-57.png">{57, 57}</string>

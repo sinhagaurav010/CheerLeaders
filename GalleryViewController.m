@@ -88,7 +88,7 @@
     
     if(isPad == 0)
     {
-        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",nil];
+        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb09-250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_JulyAug11-250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",@"IC_marapr09-250.jpg",@"IC_marapr10-250.jpg",@"IC_marapr11-250.jpg",@"IC_mayjune08-250.jpg",@"IC_MayJune09-250.jpg",@"IC_MayJune10-250.jpg",@"IC_novdec08_250.jpg",@"IC_novdec11-250.jpg",@"IC_NovDec_10-250.jpg",@"IC_sepoct11-250.jpg",@"IC_septoct06-250.jpg",@"IC_septoct08_250.jpg",@"IC_septoct10-250.jpg",@"IC_septoct_09-250.jpg",@"iCJanFeb05.jpg",@"ICjanfeb08-250.jpg",@"iCJulyAug10-250.jpg",@"ICnovdec06-250.jpg",@"ICnovdec07-250.jpg",@"ICnovdec09-250.jpg",@"ICsepoct07_250.jpg",@"mayJune06_IC-250.jpg",nil];
     }
     
     viewbuttons.userInteractionEnabled = YES;
