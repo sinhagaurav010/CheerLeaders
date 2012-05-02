@@ -151,6 +151,7 @@
 		5DEDBF231540C0C1008DFACC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEDBF221540C0C1008DFACC /* SystemConfiguration.framework */; };
 		5DEDBF251540C0C7008DFACC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEDBF241540C0C7008DFACC /* Security.framework */; };
 		5DEDBF271540C111008DFACC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEDBF261540C111008DFACC /* CFNetwork.framework */; };
+		5DFD226315507E1B008BAF60 /* subscribe-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFD226215507E1B008BAF60 /* subscribe-57.png */; };
 		5DFE98BA153F741100AEFE52 /* iC App Logos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B1153F741100AEFE52 /* iC App Logos.pdf */; };
 		5DFE98BB153F741100AEFE52 /* iC App Logos.ai in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B2153F741100AEFE52 /* iC App Logos.ai */; };
 		5DFE98BC153F741100AEFE52 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B3153F741100AEFE52 /* icon1.png */; };
@@ -331,6 +332,7 @@
 		5DEDBF221540C0C1008DFACC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5DEDBF241540C0C7008DFACC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5DEDBF261540C111008DFACC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5DFD226215507E1B008BAF60 /* subscribe-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subscribe-57.png"; sourceTree = "<group>"; };
 		5DFE98B1153F741100AEFE52 /* iC App Logos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iC App Logos.pdf"; sourceTree = "<group>"; };
 		5DFE98B2153F741100AEFE52 /* iC App Logos.ai */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iC App Logos.ai"; sourceTree = "<group>"; };
 		5DFE98B3153F741100AEFE52 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
@@ -589,6 +591,7 @@
 		5DD30B5C153A0A7800FF7A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5DFD226215507E1B008BAF60 /* subscribe-57.png */,
 				5D2FA6F0154B37A700D52076 /* vault-320.png */,
 				5D2FA6F1154B37A700D52076 /* vault-480.png */,
 				5D2FA6F2154B37A700D52076 /* vault-768.png */,
@@ -888,6 +891,7 @@
 				5D2FA6FD154B37A700D52076 /* blog-72.png in Resources */,
 				5D2FA6FE154B37A700D52076 /* blog-144.png in Resources */,
 				5D2FA6FF154B37A700D52076 /* blog-114.png in Resources */,
+				5DFD226315507E1B008BAF60 /* subscribe-57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

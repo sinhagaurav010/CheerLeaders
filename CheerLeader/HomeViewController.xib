@@ -78,7 +78,7 @@
 					<object class="IBUIButton" id="147103695">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{221, 250}, {59, 57}}</string>
+						<string key="NSFrame">{{221, 248}, {59, 57}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="363160029"/>
@@ -95,7 +95,7 @@
 						<reference key="IBUINormalTitleShadowColor" ref="190317838"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">subscribe-72.png</string>
+							<string key="NSResourceName">subscribe-57.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="399745510"/>
 						<reference key="IBUIFont" ref="906147054"/>
@@ -213,9 +213,9 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">The Buzz</string>
-						<object class="NSColor" key="IBUITextColor" id="759422968">
+						<object class="NSColor" key="IBUITextColor" id="315174213">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MSAxIDEAA</bytes>
+							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -244,7 +244,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Gallery</string>
-						<reference key="IBUITextColor" ref="759422968"/>
+						<reference key="IBUITextColor" ref="315174213"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -265,7 +265,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Events</string>
-						<reference key="IBUITextColor" ref="759422968"/>
+						<reference key="IBUITextColor" ref="315174213"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -286,7 +286,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">You Tube</string>
-						<reference key="IBUITextColor" ref="759422968"/>
+						<reference key="IBUITextColor" ref="315174213"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -307,7 +307,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Subscribe</string>
-						<reference key="IBUITextColor" ref="759422968"/>
+						<reference key="IBUITextColor" ref="315174213"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -328,7 +328,7 @@
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Social</string>
-						<reference key="IBUITextColor" ref="759422968"/>
+						<reference key="IBUITextColor" ref="315174213"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">10</float>
@@ -476,10 +476,10 @@
 							<reference ref="959896082"/>
 							<reference ref="953813075"/>
 							<reference ref="363160029"/>
-							<reference ref="938444458"/>
 							<reference ref="950862357"/>
 							<reference ref="949679338"/>
 							<reference ref="489920681"/>
+							<reference ref="938444458"/>
 							<reference ref="147103695"/>
 						</array>
 						<reference key="parent" ref="0"/>
@@ -660,7 +660,7 @@
 			<string key="gallery-57.png">{57, 57}</string>
 			<string key="ic-58.png">{58, 58}</string>
 			<string key="social-57.png">{57, 57}</string>
-			<string key="subscribe-72.png">{72, 72}</string>
+			<string key="subscribe-57.png">{57, 57}</string>
 			<string key="youtube-57.png">{57, 57}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
