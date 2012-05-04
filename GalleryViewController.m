@@ -93,29 +93,56 @@
     
     viewbuttons.userInteractionEnabled = YES;
     
-    scrllGallery.userInteractionEnabled = NO;
-    [scrllGallery setContentSize:CGSizeMake(320*[arrayImages  count], 367)];
-    scrllGallery.pagingEnabled = YES;
+//    scrllGallery.userInteractionEnabled = NO;
+    [scrllGallery setContentSize:CGSizeMake(320, ([arrayImages count]/2)*(150+10))];
+//    scrllGallery.pagingEnabled = YES;
+//    int incX = 0;
+//    for(int i=0;i<[arrayImages  count];i++)
+//    {
+//        
+//        
+//        UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
+//        NSInteger width =  (367-imageGal.size.height)/2;
+//        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, width, 320, imageGal.size.height)];
+//        imageView.image = imageGal;
+//        [scrllGallery addSubview:imageView];
+//        incX += 320;
+//    }
+//    
+//    [self.view setBackgroundColor:[UIColor  blueColor]];
+//    timer = [NSTimer  scheduledTimerWithTimeInterval:2.0 
+//                                              target:self 
+//                                            selector:@selector(slide) 
+//                                            userInfo:nil 
+//                                             repeats:YES];
+    
+    int incY = 0;
     int incX = 0;
+    
     for(int i=0;i<[arrayImages  count];i++)
     {
         
         
         UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
-        NSInteger width =  (367-imageGal.size.height)/2;
-        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, width, 320, imageGal.size.height)];
+        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, incY, 150, 150)];
         imageView.image = imageGal;
+        
+        imageView.layer.borderColor = [[UIColor redColor] CGColor];
+        imageView.layer.borderWidth = 3.0;     
+        imageView.layer.cornerRadius = 2.0;
+        
         [scrllGallery addSubview:imageView];
-        incX += 320;
+        if(i%2==0)
+        {
+            if(i!= 0)
+                incY += 160;
+            incX = 0;
+        }
+        else {
+            incX = 160;
+        }
     }
-    
-    [self.view setBackgroundColor:[UIColor  blueColor]];
-    timer = [NSTimer  scheduledTimerWithTimeInterval:2.0 
-                                              target:self 
-                                            selector:@selector(slide) 
-                                            userInfo:nil 
-                                             repeats:YES];
-    
+
     [super viewDidLoad];
     
     // Do any additional setup after loading the view from its nib.

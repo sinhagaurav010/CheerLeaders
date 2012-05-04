@@ -64,6 +64,8 @@
 
 - (void)viewDidLoad
 {
+    [self.view setBackgroundColor:[UIColor  whiteColor]];
+    
 //    [ModalController  setGradientinView:self.view];
     self.navigationItem.title = @"Social Network";
 

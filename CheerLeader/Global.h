@@ -40,6 +40,26 @@ BOOL isPad;
 
 #define EMAILTO @"info@insidecheerleading.com"
 /*
+ Changes mail : 05May2012
+ 1.      On social network make background white
+ 
+ 2.      Rename Bottom blog button to Events
+ 
+ 3.      Redo Gallery like image I just sent you
+ 
+ 
+ 
+ 2 questions.
+ 
+ 
+ 
+ 1. Is it possible that when a new blog is posted in the buzz it send a push notification? (If not thats ok just curious)
+ 
+ 2. How can we show images in the rss feeds for buzz and events is this something we can do in formatting on our end?
+ 
+ //////////////////
+ 
+ 
  Icons/banner ads are blurry can we do higher res or not force image size  don't worry because We are sending you new icons without the stripes anyway?
  OK done.
  

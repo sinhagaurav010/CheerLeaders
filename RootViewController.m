@@ -71,7 +71,7 @@
     }
     if(!self.titleString)
         if([self.navigationController.tabBarController selectedIndex]==1)
-            self.titleString = @"Blog";
+            self.titleString = @"Events";
         else if([self.navigationController.tabBarController selectedIndex]==2)
             self.titleString = @"The Buzz";
 //    NSLog(@"-----%d",);

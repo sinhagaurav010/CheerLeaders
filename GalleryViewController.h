@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Global.h"
 #import "ModalController.h"
+#import <QuartzCore/QuartzCore.h>
 @interface GalleryViewController : UIViewController
 {
     

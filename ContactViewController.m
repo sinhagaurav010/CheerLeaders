@@ -63,14 +63,9 @@
 		mcvc.mailComposeDelegate = self;
 		//[mcvc setSubject:EMAILSUB];
 		[mcvc setToRecipients:arrayRec];
-        
-        
-        //		NSString *messageBdy = [NSString stringWithFormat:@"Name %@<br>Phone %@ <br>Address %@<br>%@<br>City %@ <br>%@<br> %@<br>special features%@",textname.text,textphone.text,textAddress.text,buttonTime.titleLabel.text,textCity.text,buttonBed.titleLabel.text,buttonBath.titleLabel.text,textfea.text];
-        
         [mcvc setMessageBody:strMsg    isHTML:NO];
 		
-        //[mcvc addAttachmentData:UIImageJPEGRepresentation(imageToEmail, 1.0f) mimeType:@"image/jpeg" fileName:@"pickerimage.jpg"];
-		[self presentModalViewController:mcvc animated:YES];
+        [self presentModalViewController:mcvc animated:YES];
 	}	
     else
     {
@@ -116,41 +111,6 @@
     }
     
     
-    
-    //    self.webview.scalesPageToFit = YES;
-    //    NSString* embedHTML = @""
-    //    "<html><head>"
-    //    "<style type=\"text/css\">"
-    //    "body {" 
-    //    "background-color: transparent;"
-    //    "color: white;"
-    //    "}" 
-    //    "</style>"
-    //    "</head><body style=\"margin:0\">" 
-    //    "<object width=\"%0.0f\" height=\"%0.0f\"><param name=\"movie\" value=\"%@&autoplay=1\">"
-    //    "</param><embed src=\"%@&autoplay=1\" type=\"application/x-shockwave-flash\" width=\"%0.0f\" height=\"%0.0f\"></embed></object>"
-    //    "</body></html>";
-    //    
-    //    
-    //    CGFloat width = self.webview.frame.size.width;
-    //    CGFloat height = self.webview.frame.size.height;
-    //    NSString *html = [NSString stringWithFormat:embedHTML,
-    //                      width, height, YouTubeLink, YouTubeLink, width, height];
-    
-//    webview.delegate = self;
-//    
-//    if([ModalController connectedToNetwork])
-//    {
-//        
-//        MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
-//        hud.labelText=@"Loading...";
-//        
-//        [webview loadRequest:[NSURLRequest requestWithURL:[NSURL  URLWithString:CONTACTURL]]];
-//        
-//    }
-//    else
-//        [ModalController FuncAlertMsg:@"No Connection Found" inController:self];
-
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
