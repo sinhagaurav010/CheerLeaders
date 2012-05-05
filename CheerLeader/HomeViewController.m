@@ -58,7 +58,7 @@
 
     RootViewController *rssController = [[RootViewController alloc] init];
     rssController.stringURL = URLEVENT;
-    rssController.titleString = @"NewsLetter";
+    rssController.titleString = @"Events";
     [self.navigationController  pushViewController:rssController animated:YES];
 }
 

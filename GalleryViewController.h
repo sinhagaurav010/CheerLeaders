@@ -10,6 +10,7 @@
 #import "Global.h"
 #import "ModalController.h"
 #import <QuartzCore/QuartzCore.h>
+#import "GallerySlideShowViewController.h"
 @interface GalleryViewController : UIViewController
 {
     

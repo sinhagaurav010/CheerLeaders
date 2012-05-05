@@ -1,15 +1,17 @@
 //
-//  GalleryViewController.m
+//  GallerySlideShowViewController.m
 //  CheerLeader
 //
-//  Created by preet dhillon on 15/04/12.
+//  Created by preet dhillon on 06/05/12.
 //  Copyright (c) 2012 dhillon. All rights reserved.
 //
 
-#import "GalleryViewController.h"
+#import "GallerySlideShowViewController.h"
 
-@implementation GalleryViewController
-@synthesize arrayImages,scrllGallery;
+@implementation GallerySlideShowViewController
+
+@synthesize scrllGallery,arrayImages,atIndex;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,13 +28,63 @@
     
     // Release any cached data, images, etc that aren't in use.
 }
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+    buttonPlayPause.enabled = YES;
+    
+    [buttonPlayPause  setImage:[UIImage imageNamed:@"playback_play.png"] forState:UIControlStateSelected  ];
+    
+    [buttonPlayPause  setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal  ];
+    
+    buttonPlayPause.selected = 0;
+    
+    //    [ModalController  setGradientinView:self.view];
+    counter = 0;
+    self.navigationItem.title = @"Gallery";
+    
+    if(isPad == 0)
+    {
+        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb09-250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_JulyAug11-250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",@"IC_marapr09-250.jpg",@"IC_marapr10-250.jpg",@"IC_marapr11-250.jpg",@"IC_mayjune08-250.jpg",@"IC_MayJune09-250.jpg",@"IC_MayJune10-250.jpg",@"IC_novdec08_250.jpg",@"IC_novdec11-250.jpg",@"IC_NovDec_10-250.jpg",@"IC_sepoct11-250.jpg",@"IC_septoct06-250.jpg",@"IC_septoct08_250.jpg",@"IC_septoct10-250.jpg",@"IC_septoct_09-250.jpg",@"iCJanFeb05.jpg",@"ICjanfeb08-250.jpg",@"iCJulyAug10-250.jpg",@"ICnovdec06-250.jpg",@"ICnovdec07-250.jpg",@"ICnovdec09-250.jpg",@"ICsepoct07_250.jpg",@"mayJune06_IC-250.jpg",nil];
+    }
+
+    
+    scrllGallery.pagingEnabled = YES;
+    int incX = 0;
+    for(int i=0;i<[arrayImages  count];i++)
+    {
+        
+        
+        UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
+        NSInteger width =  (367-imageGal.size.height)/2;
+        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, width, 320, imageGal.size.height)];
+        imageView.image = imageGal;
+        [scrllGallery addSubview:imageView];
+        incX += 320;
+    }
+    
+    timer = [NSTimer  scheduledTimerWithTimeInterval:2.0 
+                                              target:self 
+                                            selector:@selector(slide) 
+                                            userInfo:nil 
+                                             repeats:YES];
+    
+    [self.scrllGallery  setContentOffset:CGPointMake(atIndex*320, 0)];
+    counter = atIndex;
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+
 - (void)viewWillDisappear:(BOOL)animated
 {
-        if([timer isValid])
-        {
-            [timer  invalidate];
-            timer = nil;
-        }
+    if([timer isValid])
+    {
+        [timer  invalidate];
+        timer = nil;
+    }
 }
 
 -(IBAction)pause:(id)sender
@@ -68,90 +120,13 @@
     }
     
 }
-#pragma mark - View lifecycle
-
-- (void)viewDidLoad
-{
-    
-    
-    buttonPlayPause.enabled = YES;
-    
-    [buttonPlayPause  setImage:[UIImage imageNamed:@"playback_play.png"] forState:UIControlStateSelected  ];
-    
-    [buttonPlayPause  setImage:[UIImage imageNamed:@"pause.png"] forState:UIControlStateNormal  ];
-    
-    buttonPlayPause.selected = 0;
-    
-//    [ModalController  setGradientinView:self.view];
-    counter = 0;
-    self.navigationItem.title = @"Gallery";
-    
-    if(isPad == 0)
-    {
-        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb09-250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_JulyAug11-250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",@"IC_marapr09-250.jpg",@"IC_marapr10-250.jpg",@"IC_marapr11-250.jpg",@"IC_mayjune08-250.jpg",@"IC_MayJune09-250.jpg",@"IC_MayJune10-250.jpg",@"IC_novdec08_250.jpg",@"IC_novdec11-250.jpg",@"IC_NovDec_10-250.jpg",@"IC_sepoct11-250.jpg",@"IC_septoct06-250.jpg",@"IC_septoct08_250.jpg",@"IC_septoct10-250.jpg",@"IC_septoct_09-250.jpg",@"iCJanFeb05.jpg",@"ICjanfeb08-250.jpg",@"iCJulyAug10-250.jpg",@"ICnovdec06-250.jpg",@"ICnovdec07-250.jpg",@"ICnovdec09-250.jpg",@"ICsepoct07_250.jpg",@"mayJune06_IC-250.jpg",nil];
-    }
-    
-    viewbuttons.userInteractionEnabled = YES;
-    
-//    scrllGallery.userInteractionEnabled = NO;
-    [scrllGallery setContentSize:CGSizeMake(320, ([arrayImages count]/2)*(150+10))];
-    
-    int incY = 0;
-    int incX = 0;
-    
-    for(int i=0;i<[arrayImages  count];i++)
-    {
-        
-        
-        UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
-        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, incY, 150, 150)];
-        imageView.image = imageGal;
-        
-        
-        imageView.layer.borderColor = [[UIColor redColor] CGColor];
-        imageView.layer.borderWidth = 3.0;     
-        imageView.layer.cornerRadius = 2.0;
-        imageView.userInteractionEnabled = YES;
-        
-        UITapGestureRecognizer *gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
-        [imageView  addGestureRecognizer:gesture];
-        imageView.tag = i;
-        [gesture  release];
-        
-        [scrllGallery addSubview:imageView];
-        if(i%2==0)
-        {
-            if(i!= 0)
-                incY += 160;
-            incX = 0;
-        }
-        else {
-            incX = 160;
-        }
-    }
-
-    [super viewDidLoad];
-    
-    // Do any additional setup after loading the view from its nib.
-}
-
--(void)handleTap:(UITapGestureRecognizer *)gesture
-{
-    GallerySlideShowViewController *controller = [[GallerySlideShowViewController   alloc] init];
-    
-    controller.atIndex = gesture.view.tag;
-    
-    [self.navigationController     pushViewController:controller animated:YES];
-    
-}
-
 -(void)slide
 {
-    NSLog(@"sdjkfnbkfg");
     if([scrllGallery contentOffset].x < 320*([arrayImages  count]-1))
     {
         [scrllGallery  setContentOffset:CGPointMake([scrllGallery contentOffset].x+320, 0) 
                                animated:YES];
+        counter++;
     }
     else
     {
