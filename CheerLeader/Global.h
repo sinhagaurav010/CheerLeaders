@@ -24,7 +24,7 @@ BOOL isPad;
 
 #define YouTubeLink  @"http://www.youtube.com/user/insidecheer?feature=watch"
 
-#define LinkToAdd @"http://www.highlevelstudios.com/"
+#define LinkToAdd @"http://www.insidecheerleading.com/"
 
 #define SUBSRIBE @"http://www.subscribeic.com/"
 
@@ -77,12 +77,12 @@ BOOL isPad;
  
  
  7.) Title of the App should be "Inside Cheer" which appears on the
- bottom of the screen on an iPhone
+ bottom of the screen on an iPhone Done
  
  
  8.) The banner Ad for inside cheerleading needs to go to their website
  http://insidecheerleading.com....it currently is going to high level
- studios.
+ studios.Done
  
  
  9. )I am getting higher resolution banner ads from the client, I will
