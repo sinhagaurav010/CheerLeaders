@@ -40,6 +40,56 @@ BOOL isPad;
 
 #define EMAILTO @"info@insidecheerleading.com"
 /*
+ ////////////////////////////////////////
+ //Changes mail:15May2012
+ 1.) I've attached the image for the load screen. After the load screen
+ they would like it to go directly into "top stories"
+ 
+ 
+ 2.) "Top stories" should be built in a framework.  The app should pull
+ content into the app & structure the content sop that it is mobile
+ optimized. ( see attached image titled top stories mock)
+ 
+ 
+ 3.) They would like their white logo at the top where it  currently says
+ Inside Cheerleading (logo attached) instead of generic text that says
+ Inside Cheerleading
+ 
+ 
+ 4.)  logo in the ad for the Subscribe today is out of proportion (please
+ fix)
+ 
+ 
+ 5.) They have 49 Inside Cheerleading covers for the gallery (see
+ attached gallery zip file)
+ Please make sure that the images are not skewed. (all gallery covers are
+ in order in the zip file, please keep them in order)
+ 
+ 
+ 6.) I have attached a zip file with all of the correct icons for the
+ app: (In the zip there are several versions of each icon so that you can
+ use the correct one for each device including the new iPad with Retna
+ Display)
+ 
+ Please click link for explanation:
+ https://developer.apple.com/library/ios/#documentation/UserExperience/Concep
+ tual/MobileHIG/IconsImages/IconsImages.html
+ 
+ 
+ 7.) Title of the App should be "Inside Cheer" which appears on the
+ bottom of the screen on an iPhone
+ 
+ 
+ 8.) The banner Ad for inside cheerleading needs to go to their website
+ http://insidecheerleading.com....it currently is going to high level
+ studios.
+ 
+ 
+ 9. )I am getting higher resolution banner ads from the client, I will
+ get these to you as soon as I can.
+ 
+ /////////////////////////////////
+ 
  Changes mail : 05May2012
  1.      On social network make background white
  
@@ -101,4 +151,8 @@ BOOL isPad;
  
  8. Newsletter Icon should be removed and replaced with attached events icon and the events icon and bottom icon butoon sgould both be linked to this feed http://blog.insidegymnastics.com/feeds/posts/default
  Done
+ 
+ 
+ 
+ 
   */

@@ -20,6 +20,8 @@
 		1C7CB59F154053160083B299 /* SocialNetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB59D154053160083B299 /* SocialNetViewController.xib */; };
 		1C7CB5A4154053310083B299 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A2154053310083B299 /* HomeViewController.m */; };
 		1C7CB5A5154053310083B299 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7CB5A3154053310083B299 /* HomeViewController.xib */; };
+		1CA06CA0155953E600A1CA89 /* GallerySlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA06C9E155953E600A1CA89 /* GallerySlideShowViewController.m */; };
+		1CA06CA1155953E600A1CA89 /* GallerySlideShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA06C9F155953E600A1CA89 /* GallerySlideShowViewController.xib */; };
 		1CF510A815498D0500CBD618 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF510A715498D0500CBD618 /* GalleryViewController.xib */; };
 		1CF510AA15498D6100CBD618 /* playback_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF510A915498D6100CBD618 /* playback_play.png */; };
 		1CF510AC1549926E00CBD618 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF510AB1549926E00CBD618 /* pause.png */; };
@@ -53,8 +55,6 @@
 		5D2FCC551538DBA600A4F530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FCC531538DBA600A4F530 /* InfoPlist.strings */; };
 		5D2FCC571538DBA600A4F530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC561538DBA600A4F530 /* main.m */; };
 		5D2FCC5B1538DBA600A4F530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */; };
-		5DCB50BF1555C95D005AF8A8 /* GallerySlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB50BD1555C95C005AF8A8 /* GallerySlideShowViewController.m */; };
-		5DCB50C01555C95D005AF8A8 /* GallerySlideShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DCB50BE1555C95C005AF8A8 /* GallerySlideShowViewController.xib */; };
 		5DD30AD41539E68600FF7A56 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */; };
 		5DD30B31153A0A7400FF7A56 /* April06-250.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B06153A0A7300FF7A56 /* April06-250.jpg */; };
 		5DD30B32153A0A7400FF7A56 /* augSEP04.tif in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B07153A0A7300FF7A56 /* augSEP04.tif */; };
@@ -186,6 +186,9 @@
 		1C7CB5A1154053310083B299 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = CheerLeader/HomeViewController.h; sourceTree = "<group>"; };
 		1C7CB5A2154053310083B299 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = CheerLeader/HomeViewController.m; sourceTree = "<group>"; };
 		1C7CB5A3154053310083B299 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = CheerLeader/HomeViewController.xib; sourceTree = "<group>"; };
+		1CA06C9D155953E600A1CA89 /* GallerySlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GallerySlideShowViewController.h; sourceTree = "<group>"; };
+		1CA06C9E155953E600A1CA89 /* GallerySlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GallerySlideShowViewController.m; sourceTree = "<group>"; };
+		1CA06C9F155953E600A1CA89 /* GallerySlideShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GallerySlideShowViewController.xib; sourceTree = "<group>"; };
 		1CF510A715498D0500CBD618 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
 		1CF510A915498D6100CBD618 /* playback_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playback_play.png; sourceTree = "<group>"; };
 		1CF510AB1549926E00CBD618 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
@@ -232,9 +235,6 @@
 		5D2FCC581538DBA600A4F530 /* CheerLeader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheerLeader-Prefix.pch"; sourceTree = "<group>"; };
 		5D2FCC591538DBA600A4F530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DCB50BC1555C95C005AF8A8 /* GallerySlideShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GallerySlideShowViewController.h; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GallerySlideShowViewController.h; sourceTree = "<absolute>"; };
-		5DCB50BD1555C95C005AF8A8 /* GallerySlideShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GallerySlideShowViewController.m; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GallerySlideShowViewController.m; sourceTree = "<absolute>"; };
-		5DCB50BE1555C95C005AF8A8 /* GallerySlideShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GallerySlideShowViewController.xib; path = /Users/preetdhillon/Documents/Ex/CheerLeadesApp/CheerLeaderCode/GallerySlideShowViewController.xib; sourceTree = "<absolute>"; };
 		5DD30AD21539E68600FF7A56 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		5DD30B06153A0A7300FF7A56 /* April06-250.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "April06-250.jpg"; sourceTree = "<group>"; };
@@ -479,6 +479,7 @@
 		5D2FCC711538DCDA00A4F530 /* ControllerClass */ = {
 			isa = PBXGroup;
 			children = (
+				5DCB50C21555C962005AF8A8 /* GallerySlideShowViewController */,
 				5D0474521549EBDB00BF7753 /* RSSFeed */,
 				5DEDBF1115409774008DFACC /* ContactViewController */,
 				5DEDBF0115408BA0008DFACC /* TabBarCLController */,
@@ -515,9 +516,9 @@
 		5DCB50C21555C962005AF8A8 /* GallerySlideShowViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5DCB50BC1555C95C005AF8A8 /* GallerySlideShowViewController.h */,
-				5DCB50BD1555C95C005AF8A8 /* GallerySlideShowViewController.m */,
-				5DCB50BE1555C95C005AF8A8 /* GallerySlideShowViewController.xib */,
+				1CA06C9D155953E600A1CA89 /* GallerySlideShowViewController.h */,
+				1CA06C9E155953E600A1CA89 /* GallerySlideShowViewController.m */,
+				1CA06C9F155953E600A1CA89 /* GallerySlideShowViewController.xib */,
 			);
 			name = GallerySlideShowViewController;
 			sourceTree = "<group>";
@@ -546,7 +547,6 @@
 			children = (
 				1C7CB58C154052BE0083B299 /* GalleryViewController.h */,
 				1C7CB58D154052BE0083B299 /* GalleryViewController.m */,
-				5DCB50C21555C962005AF8A8 /* GallerySlideShowViewController */,
 				1CF510A715498D0500CBD618 /* GalleryViewController.xib */,
 			);
 			name = GalleryViewController;
@@ -904,7 +904,7 @@
 				5DFD226315507E1B008BAF60 /* subscribe-57.png in Resources */,
 				5DF696FE1551B26C0030D39A /* rss-57.png in Resources */,
 				5DF697011551B2850030D39A /* events-57.png in Resources */,
-				5DCB50C01555C95D005AF8A8 /* GallerySlideShowViewController.xib in Resources */,
+				1CA06CA1155953E600A1CA89 /* GallerySlideShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,7 +935,7 @@
 				5D04744B1549EBC600BF7753 /* NSDate+InternetDateTime.m in Sources */,
 				5D0474501549EBD300BF7753 /* GTMNSString+HTML.m in Sources */,
 				5D0474511549EBD300BF7753 /* NSString+XMLEntities.m in Sources */,
-				5DCB50BF1555C95D005AF8A8 /* GallerySlideShowViewController.m in Sources */,
+				1CA06CA0155953E600A1CA89 /* GallerySlideShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,8 +974,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -996,8 +996,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1014,8 +1014,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1030,8 +1030,8 @@
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F32779B7-AB5D-40EE-9D4D-C76FABF10709";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
