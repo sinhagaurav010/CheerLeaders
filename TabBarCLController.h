@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HomeViewController.h"
 
-@interface TabBarCLController : UIViewController
+@interface TabBarCLController : UIViewController<UITabBarControllerDelegate>
 {
 }
 @property(retain) IBOutlet UITabBarController *tabbarcontroller;
