@@ -44,10 +44,21 @@
     //    [ModalController  setGradientinView:self.view];
     counter = 0;
     self.navigationItem.title = @"Gallery";
-    
+    arrayImages = [[NSMutableArray  alloc] init];
     if(isPad == 0)
     {
-        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb09-250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_JulyAug11-250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",@"IC_marapr09-250.jpg",@"IC_marapr10-250.jpg",@"IC_marapr11-250.jpg",@"IC_mayjune08-250.jpg",@"IC_MayJune09-250.jpg",@"IC_MayJune10-250.jpg",@"IC_novdec08_250.jpg",@"IC_novdec11-250.jpg",@"IC_NovDec_10-250.jpg",@"IC_sepoct11-250.jpg",@"IC_septoct06-250.jpg",@"IC_septoct08_250.jpg",@"IC_septoct10-250.jpg",@"IC_septoct_09-250.jpg",@"iCJanFeb05.jpg",@"ICjanfeb08-250.jpg",@"iCJulyAug10-250.jpg",@"ICnovdec06-250.jpg",@"ICnovdec07-250.jpg",@"ICnovdec09-250.jpg",@"ICsepoct07_250.jpg",@"mayJune06_IC-250.jpg",nil];
+        for(int i=1;i<=47;i++)
+        {
+            NSString *imageName = [NSString stringWithFormat:@"CL_%d",i];
+            if(i ==2 || i==4 || i== 6 || i==7 || i== 8)
+                imageName = [imageName  stringByAppendingString:@".tif"];
+            else
+                imageName = [imageName  stringByAppendingString:@".jpg"];
+            
+            [arrayImages addObject:imageName];
+            
+        }
+//        arrayImages = [[NSMutableArray  alloc] initWithObjects:@"April06-250.jpg", @"IC_janfeb07_250.jpg",@"IC_JanFeb09-250.jpg",@"IC_JanFeb11-250.jpg",@"IC_janfeb12-250.jpg",@"IC_julyaug06-250.jpg",@"IC_julyaug07_250.jpg",@"IC_julyaug08_250.jpg",@"IC_JulyAug11-250.jpg",@"IC_julycover_09-250.jpg",@"IC_june07-250.jpg",@"IC_marapr07-250.jpg",@"IC_marapr09-250.jpg",@"IC_marapr10-250.jpg",@"IC_marapr11-250.jpg",@"IC_mayjune08-250.jpg",@"IC_MayJune09-250.jpg",@"IC_MayJune10-250.jpg",@"IC_novdec08_250.jpg",@"IC_novdec11-250.jpg",@"IC_NovDec_10-250.jpg",@"IC_sepoct11-250.jpg",@"IC_septoct06-250.jpg",@"IC_septoct08_250.jpg",@"IC_septoct10-250.jpg",@"IC_septoct_09-250.jpg",@"iCJanFeb05.jpg",@"ICjanfeb08-250.jpg",@"iCJulyAug10-250.jpg",@"ICnovdec06-250.jpg",@"ICnovdec07-250.jpg",@"ICnovdec09-250.jpg",@"ICsepoct07_250.jpg",@"mayJune06_IC-250.jpg",nil];
     }
 
     
@@ -58,8 +69,8 @@
         
         
         UIImage *imageGal = [UIImage imageNamed:[arrayImages  objectAtIndex:i]];
-        NSInteger width =  (367-imageGal.size.height)/2;
-        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, width, 320, imageGal.size.height)];
+//        NSInteger width =  (367-imageGal.size.height)/2;
+        UIImageView *imageView = [[UIImageView  alloc] initWithFrame:CGRectMake(incX, 0, 320, 372)];
         imageView.image = imageGal;
         [scrllGallery addSubview:imageView];
         incX += 320;

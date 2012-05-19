@@ -83,6 +83,7 @@
     else
         [ModalController FuncAlertMsg:@"No Connection Found" inController:self];
 
+    COLORNAV
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

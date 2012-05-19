@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 
 @implementation HomeViewController
-@synthesize imageViewAd;
+@synthesize imageViewAd,topStoriesview;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -104,6 +104,7 @@
         case 0:
         {
             imageViewAd.image = [UIImage imageNamed:@"iPhone_Shoe.png"];
+            
             stringUrl = URLSHOE;
             counter = 1;
             
@@ -130,20 +131,75 @@
         {
             imageViewAd.image = [UIImage imageNamed:@"vault-320.png"];
             stringUrl = URLVAULTMEDIA;
-            
             counter = 0;
-            
         }
             break;
         default:
             break;
     }
+    
+    self.topStoriesview.imageviewAd.image = [imageViewAd image];
+}
+
+
+-(void)hideHUD
+{
+    [MBProgressHUD  hideHUDForView:self.navigationController.view animated:YES];
+}
+
+-(void)clickOnCellwithIndux:(NSInteger )index andInfo:(NSDictionary *)dict;
+{
+    
+    GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
+    GeneralWebController.stringURL = topStoriesview.strUrl;
+    
+    GeneralWebController.isFromtab = 1;
+    GeneralWebController.stringTitle = topStoriesview.strTitle;
+    [self.navigationController  pushViewController:GeneralWebController animated:YES];
+
+
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController.navigationBar setTintColor:[UIColor  colorWithRed:.53 green:.53 blue:.80 alpha:1.0]];
 
 }
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+    hud.labelText = @"Loading...";
+    
+    self.topStoriesview = [[TopStoriesView alloc] init];
+    NSArray *bundle = [[NSBundle mainBundle] loadNibNamed:@"TopStoriesView"
+                                                    owner:self.topStoriesview                                                   options:nil];    
+    for (id object in bundle) {
+        if ([object isKindOfClass:[self.topStoriesview class]])
+            self.topStoriesview = (TopStoriesView *)object;
+    }  
+    self.topStoriesview.frame = CGRectMake(0, 0, 320, 372);
+    self.topStoriesview.delagate = self;
+    [self.topStoriesview  createTopSories];
+    [self.view  addSubview:self.topStoriesview];
+
+    
+    //        [MBProgressHUD  hideHUDForView:self.navigationController.view animated:YES];
+
+    
+//    RootViewController *rootController = [[RootViewController alloc] init];
+    
+//    UINavigationController *nav = [[UINavigationController  alloc]initWithRootViewController:rootController];
+//
+//    [self.navigationController  presentModalViewController:nav animated:YES];
+//    
+//    [self.navigationItem  setBackBarButtonItem:nil];
+//    self.navigationItem.hidesBackButton  = YES;
+    
+    [self.navigationController.navigationBar setTintColor:[UIColor blueColor]];
+    
      imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],
                                              [UIImage imageNamed:@"iPhone_Shoe.png"],
                                              [UIImage  imageNamed:@"EPIC_iPhone.jpg"], 
@@ -171,9 +227,17 @@
     imageViewAd.userInteractionEnabled = YES;
     [imageViewAd addGestureRecognizer:gesture];
     
+    gesture = [[UITapGestureRecognizer  alloc] initWithTarget:self 
+                                                       action:@selector(goToAd:)];
+    self.topStoriesview.imageviewAd.userInteractionEnabled = YES;
+    [self.topStoriesview.imageviewAd  addGestureRecognizer:gesture];
     
+    UIImageView *imageTitle = [[UIImageView  alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+    imageTitle.image = [UIImage imageNamed:@"IC_Logo-1.png"];
+    self.navigationItem.titleView = imageTitle;
     
-    [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
+    COLORNAV
+    
     self.navigationItem.title = @"Inside Cheerleading";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

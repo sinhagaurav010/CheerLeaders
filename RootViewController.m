@@ -65,14 +65,14 @@
     if(!self.stringURL)
     {
         if([self.navigationController.tabBarController selectedIndex]==1)
-        self.stringURL = URLEVENT;
-        else if([self.navigationController.tabBarController selectedIndex]==2)
+            self.stringURL = URLEVENT;
+        else if([self.navigationController.tabBarController selectedIndex]==2 )
             self.stringURL = RSSFeedLink;
     }
     if(!self.titleString)
         if([self.navigationController.tabBarController selectedIndex]==1)
             self.titleString = @"Events";
-        else if([self.navigationController.tabBarController selectedIndex]==2)
+        else if([self.navigationController.tabBarController selectedIndex]==2 )          
             self.titleString = @"The Buzz";
 //    NSLog(@"-----%d",);
     
@@ -85,7 +85,7 @@
 	feedParser.feedParseType = ParseTypeFull; // Parse feed info and all items
 	feedParser.connectionType = ConnectionTypeAsynchronously;
 	[feedParser parse];
-
+    COLORNAV
 }
 
 #pragma mark -
@@ -113,7 +113,8 @@
 #pragma mark -
 #pragma mark MWFeedParserDelegate
 
-- (void)feedParserDidStart:(MWFeedParser *)parser {
+- (void)feedParserDidStart:(MWFeedParser *)parser 
+{
 	NSLog(@"Started Parsing: %@", parser.url);
 }
 

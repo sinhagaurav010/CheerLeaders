@@ -33,7 +33,6 @@
     NSString *strMsg= @" ";
     
     for (int i=0; i<[arraytextField  count]; i++) {
-        NSLog(@"äasdkmfd");
         strMsg = [strMsg stringByAppendingFormat:@"%@:",[arrayOption objectAtIndex:i]];
         
         if([[arraytextField  objectAtIndex:i] text])
@@ -110,7 +109,7 @@
         [arraytextField  addObject:field];
     }
     
-    
+    COLORNAV
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

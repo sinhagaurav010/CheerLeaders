@@ -56,12 +56,9 @@
     
     if([tabbarcontroller selectedIndex] == 0)
     {
-        if(![[navigation.viewControllers objectAtIndex:0] isKindOfClass:[HomeViewController  class]])
+        if([[navigation.viewControllers objectAtIndex:0] isKindOfClass:[HomeViewController  class]])
         {
-            NSLog(@"%@ %d",[[navigation.viewControllers objectAtIndex:0] class],[tabbarcontroller selectedIndex]);
-            
-            HomeViewController *homeController = [[HomeViewController  alloc] init];
-            [navigation  pushViewController:homeController animated:YES];
+            [[[navigation.viewControllers objectAtIndex:0] topStoriesview] removeTop];
         }
     }
 }

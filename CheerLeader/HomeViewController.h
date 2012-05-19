@@ -12,7 +12,8 @@
 #import "SocialNetViewController.h"
 #import "GalleryViewController.h"
 #import "RootViewController.h"
-@interface HomeViewController : UIViewController
+#import "TopStoriesView.h"
+@interface HomeViewController : UIViewController<TopStoriesDelegate>
 {
     NSTimer *timerAd;
     NSArray *imageArray;
@@ -21,6 +22,7 @@
     NSString *stringUrl;
 }
 
+@property(retain)TopStoriesView *topStoriesview;
 @property(retain)IBOutlet UIImageView *imageViewAd;
 
 -(IBAction)RSSFeed:(id)sender;

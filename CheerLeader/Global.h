@@ -10,6 +10,8 @@
 
 BOOL isPad;
 
+#define COLORNAV     [self.navigationController.navigationBar setTintColor:[UIColor  colorWithRed:.53 green:.53 blue:.75 alpha:1.0]];
+
 #define TwitterLink  @"http://twitter.com/#!/InsideCheer"
 
 #define FacebookLink  @"http://www.facebook.com/insidecheerleading"
@@ -44,20 +46,24 @@ BOOL isPad;
  //Changes mail:15May2012
  1.) I've attached the image for the load screen. After the load screen
  they would like it to go directly into "top stories"
+ Done
  
  
  2.) "Top stories" should be built in a framework.  The app should pull
  content into the app & structure the content sop that it is mobile
  optimized. ( see attached image titled top stories mock)
+ Done
  
  
  3.) They would like their white logo at the top where it  currently says
  Inside Cheerleading (logo attached) instead of generic text that says
  Inside Cheerleading
+ Done
  
  
  4.)  logo in the ad for the Subscribe today is out of proportion (please
  fix)
+ Done
  
  
  5.) They have 49 Inside Cheerleading covers for the gallery (see
@@ -77,7 +83,8 @@ BOOL isPad;
  
  
  7.) Title of the App should be "Inside Cheer" which appears on the
- bottom of the screen on an iPhone Done
+ bottom of the screen on an iPhone
+ Done
  
  
  8.) The banner Ad for inside cheerleading needs to go to their website

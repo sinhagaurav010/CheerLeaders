@@ -34,7 +34,7 @@
 - (void)viewDidLoad
 {
     [self.navigationController.navigationBar setTintColor:[UIColor  blackColor]];
-    
+    COLORNAV
     self.navigationItem.title = @"IC News";
 
     [super viewDidLoad];
