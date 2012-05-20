@@ -37,7 +37,16 @@
 -(void)goToHome
 {
     
-    [self.navigationController  pushViewController:self.tabbarcontroller animated:YES];
+    CATransition* transition = [CATransition animation];
+    transition.duration = 2.0;
+    transition.type = kCATransitionFade;
+    transition.subtype = kCATransitionFromTop;
+    
+    [self.navigationController.view.layer 
+     addAnimation:transition forKey:kCATransition];
+    
+    
+    [self.navigationController pushViewController: tabbarcontroller animated:NO];
 }
 #pragma mark - View lifecycle
 
