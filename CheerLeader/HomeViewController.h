@@ -20,6 +20,7 @@
     NSInteger counter;
     
     NSString *stringUrl;
+    
 }
 
 @property(retain)TopStoriesView *topStoriesview;

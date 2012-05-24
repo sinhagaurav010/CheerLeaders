@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DCF949156EC198002BFD63 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DCF948156EC198002BFD63 /* 111-user.png */; };
+		18DCF94C156EC4F7002BFD63 /* iCtv-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DCF94B156EC4F4002BFD63 /* iCtv-144.png */; };
+		18DCF94E156EC652002BFD63 /* IConTheScene-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DCF94D156EC650002BFD63 /* IConTheScene-1.png */; };
 		1C1DDE2315416121008918DB /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DDE1E15416121008918DB /* ContactViewController.m */; };
 		1C1DDE2415416121008918DB /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1DDE1F15416121008918DB /* ContactViewController.xib */; };
 		1C1DDE2515416121008918DB /* TabBarCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DDE2115416121008918DB /* TabBarCLController.m */; };
@@ -168,10 +171,12 @@
 		5DFE98BF153F741100AEFE52 /* SocialNetwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B6153F741100AEFE52 /* SocialNetwork.png */; };
 		5DFE98C0153F741100AEFE52 /* Newsletter.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B7153F741100AEFE52 /* Newsletter.png */; };
 		5DFE98C1153F741100AEFE52 /* MagazineGallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B8153F741100AEFE52 /* MagazineGallery.png */; };
-		5DFE98C2153F741100AEFE52 /* IConthescene.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFE98B9153F741100AEFE52 /* IConthescene.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DCF948156EC198002BFD63 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		18DCF94B156EC4F4002BFD63 /* iCtv-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iCtv-144.png"; sourceTree = "<group>"; };
+		18DCF94D156EC650002BFD63 /* IConTheScene-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IConTheScene-1.png"; sourceTree = "<group>"; };
 		1C1DDE1D15416121008918DB /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		1C1DDE1E15416121008918DB /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		1C1DDE1F15416121008918DB /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
@@ -359,7 +364,6 @@
 		5DFE98B6153F741100AEFE52 /* SocialNetwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SocialNetwork.png; sourceTree = "<group>"; };
 		5DFE98B7153F741100AEFE52 /* Newsletter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newsletter.png; sourceTree = "<group>"; };
 		5DFE98B8153F741100AEFE52 /* MagazineGallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MagazineGallery.png; sourceTree = "<group>"; };
-		5DFE98B9153F741100AEFE52 /* IConthescene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IConthescene.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +575,7 @@
 		5DD30B5C153A0A7800FF7A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				18DCF94B156EC4F4002BFD63 /* iCtv-144.png */,
 				5DFD226215507E1B008BAF60 /* subscribe-57.png */,
 				5DF697001551B2850030D39A /* events-57.png */,
 				5D2FA6F0154B37A700D52076 /* vault-320.png */,
@@ -599,11 +604,12 @@
 				5DFE98B6153F741100AEFE52 /* SocialNetwork.png */,
 				5DFE98B7153F741100AEFE52 /* Newsletter.png */,
 				5DFE98B8153F741100AEFE52 /* MagazineGallery.png */,
-				5DFE98B9153F741100AEFE52 /* IConthescene.png */,
 				5DD30B5D153A0D9B00FF7A56 /* forward.png */,
 				5DD30B5E153A0D9E00FF7A56 /* BackWard.png */,
 				5DE4BE541567F9B600CA1421 /* 38_2010_October.jpg */,
 				5DE4BE511567E9CD00CA1421 /* IC_Logo-1.png */,
+				18DCF948156EC198002BFD63 /* 111-user.png */,
+				18DCF94D156EC650002BFD63 /* IConTheScene-1.png */,
 				5DE4BE8015683D3400CA1421 /* CHEER COVERS */,
 			);
 			name = Images;
@@ -820,7 +826,6 @@
 				5DFE98BF153F741100AEFE52 /* SocialNetwork.png in Resources */,
 				5DFE98C0153F741100AEFE52 /* Newsletter.png in Resources */,
 				5DFE98C1153F741100AEFE52 /* MagazineGallery.png in Resources */,
-				5DFE98C2153F741100AEFE52 /* IConthescene.png in Resources */,
 				1C7CB595154052E50083B299 /* GeneralWebViewController.xib in Resources */,
 				1C7CB59A154052F70083B299 /* RssFeedViewController.xib in Resources */,
 				1C7CB59F154053160083B299 /* SocialNetViewController.xib in Resources */,
@@ -942,6 +947,9 @@
 				5DE4BEDC15683D3800CA1421 /* CL_7.tif in Resources */,
 				5DE4BEDD15683D3800CA1421 /* CL_8.tif in Resources */,
 				5DE4BEDE15683D3800CA1421 /* CL_9.jpg in Resources */,
+				18DCF949156EC198002BFD63 /* 111-user.png in Resources */,
+				18DCF94C156EC4F7002BFD63 /* iCtv-144.png in Resources */,
+				18DCF94E156EC652002BFD63 /* IConTheScene-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,8 +1004,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1012,8 +1020,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1024,8 +1032,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1034,8 +1042,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1045,15 +1053,15 @@
 		5D2FCC5F1538DBA600A4F530 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheerLeader/CheerLeader-Prefix.pch";
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1061,15 +1069,15 @@
 		5D2FCC601538DBA600A4F530 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheerLeader/CheerLeader-Prefix.pch";
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
