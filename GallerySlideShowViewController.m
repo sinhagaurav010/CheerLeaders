@@ -85,6 +85,7 @@
     [self.scrllGallery  setContentOffset:CGPointMake(atIndex*320, 0)];
     counter = atIndex;
     [super viewDidLoad];
+
     // Do any additional setup after loading the view from its nib.
 }
 
