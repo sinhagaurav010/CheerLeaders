@@ -45,7 +45,7 @@
     [self.navigationController.view.layer 
      addAnimation:transition forKey:kCATransition];
     
-    
+    tabbarcontroller.selectedIndex = 2;
     [self.navigationController pushViewController: tabbarcontroller animated:NO];
 }
 #pragma mark - View lifecycle
@@ -54,7 +54,11 @@
 {
     self.tabbarcontroller.delegate = self;
     
-    [NSTimer    scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(goToHome) userInfo:nil repeats:NO];
+    [NSTimer    scheduledTimerWithTimeInterval:2.0 
+                                        target:self 
+                                      selector:@selector(goToHome)
+                                      userInfo:nil 
+                                       repeats:NO];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

@@ -33,7 +33,7 @@
     GeneralWebViewController *GeneralWebController = [[GeneralWebViewController  alloc] init];
     GeneralWebController.stringURL = FacebookLink;
     GeneralWebController.isFromtab = 1;
-    GeneralWebController.stringTitle  = @"FaceBook";
+    GeneralWebController.stringTitle  = @"Facebook";
 
     [self.navigationController  pushViewController:GeneralWebController animated:YES];
 

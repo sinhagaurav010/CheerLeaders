@@ -58,6 +58,10 @@
 		5D2FCC551538DBA600A4F530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D2FCC531538DBA600A4F530 /* InfoPlist.strings */; };
 		5D2FCC571538DBA600A4F530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC561538DBA600A4F530 /* main.m */; };
 		5D2FCC5B1538DBA600A4F530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */; };
+		5DB01F6E1577F0F90031B272 /* vaultad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB01F6A1577F0F90031B272 /* vaultad@2x.png */; };
+		5DB01F6F1577F0F90031B272 /* vaultad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB01F6B1577F0F90031B272 /* vaultad.png */; };
+		5DB01F701577F0F90031B272 /* icad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB01F6C1577F0F90031B272 /* icad@2x.png */; };
+		5DB01F711577F0F90031B272 /* icad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB01F6D1577F0F90031B272 /* icad.png */; };
 		5DD30AD41539E68600FF7A56 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */; };
 		5DD30B5F153A0DA000FF7A56 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B5D153A0D9B00FF7A56 /* forward.png */; };
 		5DD30B60153A0DA000FF7A56 /* BackWard.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD30B5E153A0D9E00FF7A56 /* BackWard.png */; };
@@ -247,6 +251,10 @@
 		5D2FCC581538DBA600A4F530 /* CheerLeader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CheerLeader-Prefix.pch"; sourceTree = "<group>"; };
 		5D2FCC591538DBA600A4F530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D2FCC5A1538DBA600A4F530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DB01F6A1577F0F90031B272 /* vaultad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vaultad@2x.png"; sourceTree = "<group>"; };
+		5DB01F6B1577F0F90031B272 /* vaultad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vaultad.png; sourceTree = "<group>"; };
+		5DB01F6C1577F0F90031B272 /* icad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icad@2x.png"; sourceTree = "<group>"; };
+		5DB01F6D1577F0F90031B272 /* icad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icad.png; sourceTree = "<group>"; };
 		5DD30AD21539E68600FF7A56 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		5DD30AD31539E68600FF7A56 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		5DD30B5D153A0D9B00FF7A56 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
@@ -575,6 +583,10 @@
 		5DD30B5C153A0A7800FF7A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5DB01F6A1577F0F90031B272 /* vaultad@2x.png */,
+				5DB01F6B1577F0F90031B272 /* vaultad.png */,
+				5DB01F6C1577F0F90031B272 /* icad@2x.png */,
+				5DB01F6D1577F0F90031B272 /* icad.png */,
 				18DCF94B156EC4F4002BFD63 /* iCtv-144.png */,
 				5DFD226215507E1B008BAF60 /* subscribe-57.png */,
 				5DF697001551B2850030D39A /* events-57.png */,
@@ -950,6 +962,10 @@
 				18DCF949156EC198002BFD63 /* 111-user.png in Resources */,
 				18DCF94C156EC4F7002BFD63 /* iCtv-144.png in Resources */,
 				18DCF94E156EC652002BFD63 /* IConTheScene-1.png in Resources */,
+				5DB01F6E1577F0F90031B272 /* vaultad@2x.png in Resources */,
+				5DB01F6F1577F0F90031B272 /* vaultad.png in Resources */,
+				5DB01F701577F0F90031B272 /* icad@2x.png in Resources */,
+				5DB01F711577F0F90031B272 /* icad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,8 +1020,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1020,8 +1036,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1032,8 +1048,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -1042,8 +1058,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1053,15 +1069,15 @@
 		5D2FCC5F1538DBA600A4F530 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheerLeader/CheerLeader-Prefix.pch";
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1069,15 +1085,15 @@
 		5D2FCC601538DBA600A4F530 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Thomas De Vos (A73Y5XTQUY)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tapan Sinha (JQVPP4KWA4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CheerLeader/CheerLeader-Prefix.pch";
 				INFOPLIST_FILE = "CheerLeader/CheerLeader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB7F1E4D-A7D0-4CFA-86C8-0B6BF39942FF";
+				PROVISIONING_PROFILE = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "319C92DE-26F8-4C34-9617-ED0E66245BA5";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

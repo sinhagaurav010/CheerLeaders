@@ -120,7 +120,7 @@
             break;
         case 2:
         {
-            imageViewAd.image = [UIImage imageNamed:@"AdCheerLeader.png"];
+            imageViewAd.image = [UIImage imageNamed:@"icad.png"];
             stringUrl = LinkToAdd;
 
             counter = 3;
@@ -129,7 +129,7 @@
             break;
         case 3:
         {
-            imageViewAd.image = [UIImage imageNamed:@"vault-320.png"];
+            imageViewAd.image = [UIImage imageNamed:@"vaultad.png"];
             stringUrl = URLVAULTMEDIA;
             counter = 0;
         }
@@ -170,20 +170,20 @@
 - (void)viewDidLoad
 {
     
-    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
-    hud.labelText = @"Loading...";
-    
-    self.topStoriesview = [[TopStoriesView alloc] init];
-    NSArray *bundle = [[NSBundle mainBundle] loadNibNamed:@"TopStoriesView"
-                                                    owner:self.topStoriesview                                                   options:nil];    
-    for (id object in bundle) {
-        if ([object isKindOfClass:[self.topStoriesview class]])
-            self.topStoriesview = (TopStoriesView *)object;
-    }  
-    self.topStoriesview.frame = CGRectMake(0, 0, 320, 372);
-    self.topStoriesview.delagate = self;
-    [self.topStoriesview  createTopSories];
-    [self.view  addSubview:self.topStoriesview];
+//    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+//    hud.labelText = @"Loading...";
+//    
+//    self.topStoriesview = [[TopStoriesView alloc] init];
+//    NSArray *bundle = [[NSBundle mainBundle] loadNibNamed:@"TopStoriesView"
+//                                                    owner:self.topStoriesview                                                   options:nil];    
+//    for (id object in bundle) {
+//        if ([object isKindOfClass:[self.topStoriesview class]])
+//            self.topStoriesview = (TopStoriesView *)object;
+//    }  
+//    self.topStoriesview.frame = CGRectMake(0, 0, 320, 372);
+//    self.topStoriesview.delagate = self;
+//    [self.topStoriesview  createTopSories];
+//    [self.view  addSubview:self.topStoriesview];
 
     
     //        [MBProgressHUD  hideHUDForView:self.navigationController.view animated:YES];
@@ -200,10 +200,10 @@
     
     [self.navigationController.navigationBar setTintColor:[UIColor blueColor]];
     
-     imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"AdCheerLeader.png"],
+     imageArray = [NSArray  arrayWithObjects:[UIImage imageNamed:@"icad.png"],
                                              [UIImage imageNamed:@"iPhone_Shoe.png"],
                                              [UIImage  imageNamed:@"EPIC_iPhone.jpg"], 
-                                             [UIImage imageNamed:@"vault-320.png"],
+                                             [UIImage imageNamed:@"vaultad.png"],
                                              nil];
     
     timerAd = [NSTimer   scheduledTimerWithTimeInterval:3.0 
