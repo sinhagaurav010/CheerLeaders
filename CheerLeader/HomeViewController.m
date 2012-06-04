@@ -25,7 +25,7 @@
 {
     RootViewController *rssController = [[RootViewController alloc] init];
     rssController.stringURL = RSSFeedLink;
-    rssController.titleString = @"The Buzz",
+    rssController.titleString = @"Top Stories",
     [self.navigationController  pushViewController:rssController animated:YES];
 
 }
